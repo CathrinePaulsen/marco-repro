@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.node.NodeJDKSerializationTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.085 s <<< FAILURE! -- in com.fasterxml.jackson.databind.node.NodeJDKSerializationTest
+com.fasterxml.jackson.databind.node.NodeJDKSerializationTest.testObjectNodeSerialization -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.node.NodeJDKSerializationTest.testNodeRoundtrip(NodeJDKSerializationTest.java:101)
+	at com.fasterxml.jackson.databind.node.NodeJDKSerializationTest.testObjectNodeSerialization(NodeJDKSerializationTest.java:31)
+

@@ -1,0 +1,1 @@
+This folder contains all datapoints from the [BUMP benchmark](https://github.com/chains-project/bump) as of [March 22, 2024](https://github.com/chains-project/bump/tree/806931240483629959124f2eecc25fbdd2acf49b).

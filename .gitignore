@@ -1,0 +1,9 @@
+*.token
+target/
+**/test_resources/base_templates/**
+**/test_resources/cand_templates/**
+!**/test_resources/**/com.example.dep*
+jars/
+server/resources/
+**/repos/
+.jython_cache

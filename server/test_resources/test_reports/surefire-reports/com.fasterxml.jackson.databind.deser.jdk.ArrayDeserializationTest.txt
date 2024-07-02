@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.deser.jdk.ArrayDeserializationTest
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.078 s <<< FAILURE! -- in com.fasterxml.jackson.databind.deser.jdk.ArrayDeserializationTest
+com.fasterxml.jackson.databind.deser.jdk.ArrayDeserializationTest.testUntypedArray -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.deser.jdk.ArrayDeserializationTest.testUntypedArray(ArrayDeserializationTest.java:157)
+
+com.fasterxml.jackson.databind.deser.jdk.ArrayDeserializationTest.testUntypedArrayOfArrays -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.deser.jdk.ArrayDeserializationTest.testUntypedArrayOfArrays(ArrayDeserializationTest.java:230)
+

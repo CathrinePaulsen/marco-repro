@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.node.TestConversions
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! -- in com.fasterxml.jackson.databind.node.TestConversions
+com.fasterxml.jackson.databind.node.TestConversions.testBigDecimalAsPlainStringTreeConversion -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.node.TestConversions.testBigDecimalAsPlainStringTreeConversion(TestConversions.java:292)
+
+com.fasterxml.jackson.databind.node.TestConversions.testBufferedLongViaCoercion -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.node.TestConversions.testBufferedLongViaCoercion(TestConversions.java:342)
+

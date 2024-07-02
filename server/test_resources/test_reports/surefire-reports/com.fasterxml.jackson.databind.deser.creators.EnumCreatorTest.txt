@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.deser.creators.EnumCreatorTest
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! -- in com.fasterxml.jackson.databind.deser.creators.EnumCreatorTest
+com.fasterxml.jackson.databind.deser.creators.EnumCreatorTest.testCreatorEnumsFromBigDecimal -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'boolean com.fasterxml.jackson.core.io.NumberInput.looksLikeValidNumber(java.lang.String)'
+	at com.fasterxml.jackson.databind.deser.creators.EnumCreatorTest.testCreatorEnumsFromBigDecimal(EnumCreatorTest.java:241)
+

@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.node.NumberNodes1770Test
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! -- in com.fasterxml.jackson.databind.node.NumberNodes1770Test
+com.fasterxml.jackson.databind.node.NumberNodes1770Test.testBigDecimalCoercionInf -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.node.NumberNodes1770Test.testBigDecimalCoercionInf(NumberNodes1770Test.java:38)
+
+com.fasterxml.jackson.databind.node.NumberNodes1770Test.testBigDecimalCoercionNaN -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.node.NumberNodes1770Test._tryBigDecimalCoercionNaNWithOption(NumberNodes1770Test.java:74)
+	at com.fasterxml.jackson.databind.node.NumberNodes1770Test.testBigDecimalCoercionNaN(NumberNodes1770Test.java:46)
+
+com.fasterxml.jackson.databind.node.NumberNodes1770Test.testBigDecimalCoercion -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.node.NumberNodes1770Test.testBigDecimalCoercion(NumberNodes1770Test.java:25)
+

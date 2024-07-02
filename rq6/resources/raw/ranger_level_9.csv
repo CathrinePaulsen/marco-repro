@@ -1,0 +1,7 @@
+project,dep,dep_range,project_depth,status,Incompatibility,No suitable version,"Error (no jar, call graph)"
+org.daisy.pipeline.modules|zedai-to-epub3|2.3.1,org.daisy.pipeline.modules|epub-utils|1.2.3,"[1.2.3,1.2.4]",9,success,,,
+org.daisy.pipeline.modules|html-to-epub3|2.2.1,org.daisy.pipeline.modules|epub-utils|1.2.3,"[1.2.3,1.2.4]",9,success,,,
+org.daisy.pipeline.modules|daisy202-to-epub3|2.0.6,org.daisy.pipeline.modules|epub-utils|1.2.3,"[1.2.3,1.2.4]",9,success,,,
+org.daisy.pipeline.modules.braille|epub3-to-pef|6.0.0,org.daisy.pipeline.modules|epub-utils|1.2.3,"[1.2.3,1.2.4]",9,success,,,
+org.daisy.pipeline.modules|epub3-to-daisy202|2.2.2,org.daisy.pipeline.modules|epub-utils|1.2.3,"[1.2.3,1.2.4]",9,success,,,
+org.daisy.pipeline.modules|zedai-to-epub3|2.3.2,org.daisy.pipeline.modules|epub-utils|1.2.3,"[1.2.3,1.2.4]",9,success,,,

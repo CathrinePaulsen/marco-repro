@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.jsontype.TestGenericListSerialization
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! -- in com.fasterxml.jackson.databind.jsontype.TestGenericListSerialization
+com.fasterxml.jackson.databind.jsontype.TestGenericListSerialization.testSubTypesFor356 -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'byte[] com.fasterxml.jackson.core.util.ByteArrayBuilder.getClearAndRelease()'
+	at com.fasterxml.jackson.databind.jsontype.TestGenericListSerialization.testSubTypesFor356(TestGenericListSerialization.java:62)
+

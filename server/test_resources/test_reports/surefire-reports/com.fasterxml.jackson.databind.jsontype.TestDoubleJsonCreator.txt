@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.jsontype.TestDoubleJsonCreator
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! -- in com.fasterxml.jackson.databind.jsontype.TestDoubleJsonCreator
+com.fasterxml.jackson.databind.jsontype.TestDoubleJsonCreator.testDeserializeFPAsObject -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.jsontype.TestDoubleJsonCreator.testDeserializeFPAsObject(TestDoubleJsonCreator.java:266)
+

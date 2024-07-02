@@ -1,0 +1,40 @@
+Failures in base (jackson-databind-2.15.2) not in cand (jackson-databind-2.15.0):
+
+com.fasterxml.jackson.databind.type.TestTypeFactoryWithClassLoader, testSetsTheCorrectClassLoderIfUsingWithModifierFollowedByWithClassLoader, com.fasterxml.jackson.databind.type.TestTypeFactoryWithClassLoader),
+
+
+com.fasterxml.jackson.databind.type.TestTypeFactoryWithClassLoader, case=testSetsTheCorrectClassLoderIfUsingWithClassLoaderFollowedByWithModifier, class=com.fasterxml.jackson.databind.type.TestTypeFactoryWithClassLoader),
+
+
+com.fasterxml.jackson.databind.type.TestTypeFactoryWithClassLoader, case=testThreadContextClassLoaderIsUsedIfNotUsingWithClassLoader, class=com.fasterxml.jackson.databind.type.TestTypeFactoryWithClassLoader),
+
+
+com.fasterxml.jackson.databind.type.TestTypeFactoryWithClassLoader, case=testUsesFallBackClassLoaderIfNoThreadClassLoaderAndNoWithClassLoader, class=com.fasterxml.jackson.databind.type.TestTypeFactoryWithClassLoader),
+
+
+com.fasterxml.jackson.databind.type.TestTypeFactoryWithClassLoader, case=testUsesCorrectClassLoaderWhenThreadClassLoaderIsNotNull, class=com.fasterxml.jackson.databind.type.TestTypeFactoryWithClassLoader),
+
+
+com.fasterxml.jackson.databind.type.TestTypeFactoryWithClassLoader, case=testCallingOnlyWithModifierGivesExpectedResults, class=com.fasterxml.jackson.databind.type.TestTypeFactoryWithClassLoader),
+
+
+com.fasterxml.jackson.databind.type.TestTypeFactoryWithClassLoader, case=testUsesCorrectClassLoaderWhenThreadClassLoaderIsNull, class=com.fasterxml.jackson.databind.type.TestTypeFactoryWithClassLoader),
+
+
+com.fasterxml.jackson.databind.type.TestTypeFactoryWithClassLoader, case=testDefaultTypeFactoryNotAffectedByWithConstructors, class=com.fasterxml.jackson.databind.type.TestTypeFactoryWithClassLoader),
+
+
+com.fasterxml.jackson.databind.type.TestTypeFactoryWithClassLoader, case=testCallingOnlyWithClassLoaderGivesExpectedResults, class=com.fasterxml.jackson.databind.type.TestTypeFactoryWithClassLoader)
+
+
+
+Failures in cand (jackson-databind-2.15.0) not in base (jackson-databind-2.15.2):
+
+
+com.fasterxml.jackson.databind.type.TestTypeFactoryWithClassLoader, case=, class=com.fasterxml.jackson.databind.type.TestTypeFactoryWithClassLoader),
+
+
+com.fasterxml.jackson.databind.deser.Issue3913DeserTest, case=testDeserialization, class=com.fasterxml.jackson.databind.deser.Issue3913DeserTest),
+
+
+com.fasterxml.jackson.databind.node.WithPathTest, case=testWithArray3882, class=com.fasterxml.jackson.databind.node.WithPathTest)}

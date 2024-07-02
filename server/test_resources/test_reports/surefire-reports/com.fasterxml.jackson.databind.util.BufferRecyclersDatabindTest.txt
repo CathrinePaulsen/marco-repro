@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.util.BufferRecyclersDatabindTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! -- in com.fasterxml.jackson.databind.util.BufferRecyclersDatabindTest
+com.fasterxml.jackson.databind.util.BufferRecyclersDatabindTest.testGeneratorWithHybridPool -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalStateException: BufferRecycler already linked to pool: com.fasterxml.jackson.databind.util.BufferRecyclersDatabindTest$HybridTestPool@2fa69580
+	at com.fasterxml.jackson.databind.util.BufferRecyclersDatabindTest._testGenerator(BufferRecyclersDatabindTest.java:124)
+	at com.fasterxml.jackson.databind.util.BufferRecyclersDatabindTest.testGeneratorWithHybridPool(BufferRecyclersDatabindTest.java:112)
+

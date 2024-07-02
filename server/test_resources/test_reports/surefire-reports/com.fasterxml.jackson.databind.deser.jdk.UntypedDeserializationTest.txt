@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.deser.jdk.UntypedDeserializationTest
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! -- in com.fasterxml.jackson.databind.deser.jdk.UntypedDeserializationTest
+com.fasterxml.jackson.databind.deser.jdk.UntypedDeserializationTest.testPolymorphicUntypedVanilla -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.deser.jdk.UntypedDeserializationTest.testPolymorphicUntypedVanilla(UntypedDeserializationTest.java:499)
+
+com.fasterxml.jackson.databind.deser.jdk.UntypedDeserializationTest.testPolymorphicUntypedCustom -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.deser.jdk.UntypedDeserializationTest.testPolymorphicUntypedCustom(UntypedDeserializationTest.java:537)
+
+com.fasterxml.jackson.databind.deser.jdk.UntypedDeserializationTest.testSimpleVanillaScalars -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.deser.jdk.UntypedDeserializationTest.testSimpleVanillaScalars(UntypedDeserializationTest.java:227)
+
+com.fasterxml.jackson.databind.deser.jdk.UntypedDeserializationTest.testNonVanilla -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.deser.jdk.UntypedDeserializationTest.testNonVanilla(UntypedDeserializationTest.java:286)
+

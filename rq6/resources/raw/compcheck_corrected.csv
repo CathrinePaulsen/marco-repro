@@ -1,0 +1,757 @@
+Client,Library,Old Version,New Version,Error Type
+HikariCP,org.slf4j:slf4j-api,1.7.25,2.0.0-alpha1,Error Only
+HikariCP,org.apache.logging.log4j:log4j-core,2.11.1,2.12.1,Fail + Error
+quickfixj,org.slf4j:slf4j-api,1.7.25,2.0.0-alpha1,Fail Only
+quickfixj,org.slf4j:slf4j-jdk14,1.7.25,2.0.0-alpha1,Fail Only
+openscoring,org.glassfish.jersey.media:jersey-media-multipart,2.27,2.29.1,Error Only
+openscoring,org.glassfish.jersey.core:jersey-client,2.27,2.29.1,Error Only
+openscoring,com.google.guava:guava,27.0-jre,28.2-jre,Error Only
+openscoring,org.jpmml:pmml-evaluator-extension,1.4.4,1.4.14,Error Only
+openscoring,org.glassfish.jersey.core:jersey-server,2.27,2.29.1,Error Only
+byte-buddy,org.apache.maven:maven-core,3.2.5,3.6.2,Error Only
+java-driver,org.slf4j:slf4j-api,1.7.26,2.0.0-alpha1,Error Only
+java-driver,ch.qos.logback:logback-classic,1.2.3,1.3.0-alpha5,Error Only
+Cerberus,com.fasterxml.jackson.core:jackson-databind,2.5.3,2.10.1,Error Only
+dble,org.apache.curator:curator-recipes,2.11.0,4.2.0,Fail Only
+dble,org.apache.curator:curator-framework,2.11.0,4.2.0,Fail Only
+dble,com.google.guava:guava,19.0,28.2-jre,Fail Only
+dble,com.alibaba:druid,1.1.14,1.1.21,Fail Only
+photon,org.elasticsearch.plugin:transport-netty4-client,5.5.0,7.5.1,Error Only
+photon,org.elasticsearch.client:transport,5.5.0,7.5.1,Error Only
+photon,org.apache.logging.log4j:log4j-slf4j-impl,2.8.2,2.13.0,Error Only
+photon,org.openstreetmap.osmosis:osmosis-hstore-jdbc,0.43.1,0.47,Error Only
+photon,org.springframework:spring-jdbc,4.0.0.RELEASE,5.2.2.RELEASE,Error Only
+storm-crawler,org.apache.storm:storm-core,1.2.2,2.1.0,Error Only
+storm-crawler,com.fasterxml.jackson.core:jackson-databind,2.8.11.3,2.10.1,Fail + Error
+jitsi-videobridge,org.easymock:easymock,3.4,4.1,Error Only
+javaparser,org.junit.jupiter:junit-jupiter-params,5.3.1,5.6.0-M1,Error Only
+zt-exec,org.slf4j:slf4j-api,1.7.2,2.0.0-alpha1,Fail Only
+zt-exec,ch.qos.logback:logback-classic,1.1.2,1.3.0-alpha5,Fail Only
+servicecomb-pack,io.github.openfeign:feign-core,9.5.1,10.7.0,Error Only
+servicecomb-pack,com.typesafe.akka:akka-actor_2.12,2.5.14,2.6.1,Error Only
+servicecomb-pack,org.apache.logging.log4j:log4j-slf4j-impl,2.7,2.13.0,Error Only
+servicecomb-pack,io.grpc:grpc-protobuf,1.14.0,1.26.0,Error Only
+servicecomb-pack,org.slf4j:slf4j-simple,1.7.25,2.0.0-alpha1,Error Only
+servicecomb-pack,org.apache.servicecomb.pack:alpha-core,0.4.0,0.5.0,Error Only
+servicecomb-pack,org.apache.logging.log4j:log4j-core,2.7,2.13.0,Error Only
+servicecomb-pack,org.apache.logging.log4j:log4j-api,2.7,2.13.0,Error Only
+servicecomb-pack,io.netty:netty-common,4.1.24.Final,5.0.0.Alpha2,Error Only
+servicecomb-pack,org.apache.servicecomb.pack:omega-transaction,0.4.0,0.5.0,Fail + Error
+querydsl,org.hsqldb:hsqldb,2.3.2,2.5.0,Fail + Error
+querydsl,org.mongodb:mongo-java-driver,3.5.0,3.12.0,Fail Only
+querydsl,org.hibernate:hibernate-entitymanager,4.3.11.Final,6.0.0.Alpha3,Error Only
+querydsl,org.apache.lucene:lucene-core,3.6.2,8.3.1,Error Only
+querydsl,org.apache.derby:derby,10.11.1.1,10.15.1.3,Error Only
+querydsl,org.hibernate:hibernate-validator,4.3.1.Final,6.1.0.Final,Error Only
+querydsl,org.reflections:reflections,0.9.9,0.9.11,Error Only
+querydsl,org.datanucleus:datanucleus-rdbms,3.2.0-release,5.2.1,Error Only
+querydsl,com.h2database:h2,1.4.186,1.4.200,Error Only
+querydsl,org.xerial:sqlite-jdbc,3.7.2,3.28.0,Error Only
+OWASP-WebScarab,org.bouncycastle:bcprov-jdk15on,1.48,1.64,Error Only
+killbill,org.eclipse.jetty:jetty-util,9.2.10.v20150310,10.0.0.alpha1,Fail Only
+killbill,org.awaitility:awaitility,2.0.0,4.0.1,Fail Only
+killbill,org.kill-bill.commons:killbill-skeleton,0.22.3,0.23.5,Fail Only
+killbill,org.slf4j:slf4j-api,1.7.25,2.0.0-alpha1,Fail Only
+killbill,ch.qos.logback:logback-classic,1.2.3,1.3.0-alpha5,Fail Only
+killbill,com.google.inject:guice,4.1.0,4.2.2,Fail Only
+killbill,org.kill-bill.commons:killbill-clock,0.22.3,0.23.5,Fail Only
+killbill,com.sun.jersey:jersey-server,1.19.3,1.19.4,Fail Only
+killbill,org.redisson:redisson,3.8.2,3.11.6,Fail Only
+killbill,io.dropwizard.metrics:metrics-logback,3.2.2,4.1.2,Fail Only
+killbill,org.kill-bill.commons:killbill-queue,0.22.3,0.23.5,Fail Only
+killbill,org.kill-bill.commons:killbill-locker,0.22.3,0.23.5,Fail Only
+killbill,org.eclipse.jetty:jetty-deploy,9.2.10.v20150310,10.0.0.alpha1,Fail Only
+killbill,javax.cache:cache-api,1.0.0,1.1.1,Fail Only
+killbill,org.kill-bill.billing:killbill-client-java,1.0.6,1.1.9,Fail Only
+killbill,org.kill-bill.commons:killbill-concurrent,0.22.3,0.23.5,Fail Only
+killbill,org.apache.shiro:shiro-web,1.3.2,1.4.2,Fail Only
+killbill,org.slf4j:slf4j-simple,1.7.25,2.0.0-alpha1,Fail Only
+killbill,org.apache.shiro:shiro-guice,1.3.2,1.4.2,Fail Only
+killbill,mysql:mysql-connector-java,5.1.33,8.0.18,Fail Only
+killbill,org.kill-bill.billing:killbill-beatrix,0.20.14,0.21.7,Fail Only
+killbill,com.palominolabs.metrics:metrics-guice,3.2.1,4.0.0,Fail Only
+killbill,io.airlift:units,1.0,1.4,Fail Only
+killbill,org.kill-bill.billing:killbill-platform-lifecycle,0.38.3,0.39.8,Fail Only
+killbill,com.google.guava:guava,26.0-jre,28.1-jre,Fail Only
+killbill,org.kill-bill.commons:killbill-xmlloader,0.22.3,0.23.5,Fail Only
+killbill,org.kill-bill.commons:killbill-embeddeddb-mysql,0.22.3,0.23.5,Fail Only
+killbill,org.joda:joda-money,0.9,1.0.1,Fail Only
+killbill,org.kill-bill.billing:killbill-util,0.20.14,0.21.7,Fail Only
+killbill,org.eclipse.jetty:jetty-server,9.2.10.v20150310,10.0.0.alpha1,Fail Only
+killbill,org.slf4j:jcl-over-slf4j,1.7.25,2.0.0-alpha1,Fail Only
+killbill,com.sun.jersey.contribs:jersey-guice,1.19.3,1.19.4,Fail Only
+killbill,com.fasterxml.jackson.core:jackson-core,2.9.7,2.10.1,Fail Only
+killbill,org.kill-bill.billing:killbill-platform-base,0.38.3,0.39.8,Fail Only
+killbill,org.flywaydb:flyway-core,4.0,6.1.2,Fail Only
+killbill,org.mariadb.jdbc:mariadb-java-client,1.7.2,2.5.2,Fail Only
+killbill,org.ehcache:ehcache,3.3.1,3.8.1,Fail Only
+killbill,org.ehcache:ehcache-clustered,3.3.1,3.8.1,Fail Only
+killbill,io.swagger:swagger-jersey-jaxrs,1.5.21,1.6.0,Fail Only
+killbill,org.kill-bill.billing:killbill-jaxrs,0.20.14,0.21.7,Fail Only
+killbill,org.kill-bill.billing:killbill-platform-test,0.38.3,0.39.8,Fail Only
+killbill,com.fasterxml.jackson.core:jackson-databind,2.9.7,2.10.1,Fail Only
+killbill,org.kill-bill.commons:killbill-embeddeddb-h2,0.22.3,0.23.5,Fail Only
+killbill,org.testng:testng,6.14.3,7.1.0,Fail Only
+killbill,org.codehaus.janino:janino,2.5.16,3.1.0,Fail Only
+killbill,org.kill-bill.billing:killbill-platform-osgi,0.38.3,0.39.8,Fail Only
+killbill,com.fasterxml.jackson.core:jackson-annotations,2.9.7,2.10.1,Fail Only
+killbill,org.kill-bill.billing:killbill-catalog,0.20.14,0.21.7,Fail Only
+killbill,ch.qos.logback:logback-core,1.2.3,1.3.0-alpha5,Fail Only
+killbill,org.kill-bill.billing:killbill-usage,0.20.14,0.21.7,Fail Only
+killbill,org.kill-bill.commons:killbill-embeddeddb-common,0.22.3,0.23.5,Fail Only
+killbill,org.antlr:ST4,4.0.8,4.2,Fail Only
+killbill,org.kill-bill.billing:killbill-internal-api,0.20.14,0.21.7,Fail Only
+killbill,com.google.inject.extensions:guice-multibindings,4.1.0,4.2.2,Fail Only
+killbill,org.weakref:jmxutils,1.19,1.21,Fail Only
+killbill,org.kill-bill.commons:killbill-jdbi,0.22.3,0.23.5,Fail Only
+killbill,com.samskivert:jmustache,1.5,1.15,Fail Only
+killbill,org.kill-bill.billing:killbill-api,0.52.0,0.53.15,Fail Only
+killbill,com.google.inject.extensions:guice-servlet,4.1.0,4.2.2,Fail Only
+killbill,io.dropwizard.metrics:metrics-servlet,3.2.2,4.1.2,Fail Only
+killbill,org.kill-bill.billing:killbill-platform-server,0.38.3,0.39.8,Fail Only
+killbill,io.dropwizard.metrics:metrics-core,3.2.2,4.1.2,Fail Only
+killbill,org.eclipse.jetty:jetty-http,9.2.10.v20150310,10.0.0.alpha1,Fail Only
+killbill,org.kill-bill.billing:killbill-subscription,0.20.14,0.21.7,Fail Only
+killbill,org.eclipse.jetty:jetty-jmx,9.2.10.v20150310,10.0.0.alpha1,Fail Only
+killbill,org.apache.shiro:shiro-core,1.3.2,1.4.2,Fail Only
+killbill,org.kill-bill.billing:killbill-tenant,0.20.14,0.21.7,Fail Only
+killbill,org.kill-bill.billing:killbill-platform-osgi-api,0.38.3,0.39.8,Fail Only
+killbill,io.dropwizard.metrics:metrics-jcache,3.2.2,4.1.2,Fail Only
+killbill,org.eclipse.jetty:jetty-servlet,9.2.10.v20150310,10.0.0.alpha1,Fail Only
+killbill,org.eclipse.jetty:jetty-xml,9.2.10.v20150310,10.0.0.alpha1,Fail Only
+killbill,org.eclipse.jetty:jetty-io,9.2.10.v20150310,10.0.0.alpha1,Fail Only
+killbill,io.swagger:swagger-jaxrs,1.5.21,1.6.0,Fail Only
+killbill,io.swagger:swagger-models,1.5.21,2.0.0-rc2,Fail Only
+killbill,org.kill-bill.commons:killbill-metrics,0.22.3,0.23.5,Fail Only
+killbill,org.kill-bill.billing:killbill-platform-api,0.38.3,0.39.8,Fail Only
+killbill,org.kill-bill.billing:killbill-profiles-killbill,0.20.14,0.21.7,Fail Only
+killbill,org.kill-bill.billing:killbill-account,0.20.14,0.21.7,Fail Only
+nifty,com.google.inject.extensions:guice-multibindings,4.0,4.2.2,Fail Only
+kafka-streams-machine-learning-examples,io.confluent:kafka-schema-registry,5.3.0,5.3.2,Error Only
+kafka-streams-machine-learning-examples,org.apache.kafka:kafka-streams,2.3.0,5.3.1-ce,Error Only
+kafka-streams-machine-learning-examples,org.deeplearning4j:deeplearning4j-core,1.0.0-beta3,1.0.0-beta6,Error Only
+kafka-streams-machine-learning-examples,org.nd4j:nd4j-native-platform,1.0.0-beta3,1.0.0-beta6,Error Only
+openapi-generator,io.swagger.core.v3:swagger-core,2.0.9,2.1.0,Fail Only
+openapi-generator,org.jmockit:jmockit,1.46,1.48,Fail Only
+ddd-leaven-v2,org.springframework:spring-tx,4.2.6.RELEASE,5.2.2.RELEASE,Error Only
+ddd-leaven-v2,org.springframework:spring-test,4.2.6.RELEASE,5.2.2.RELEASE,Error Only
+ddd-leaven-v2,org.springframework:spring-orm,4.2.6.RELEASE,5.2.2.RELEASE,Error Only
+ddd-leaven-v2,org.hibernate:hibernate-entitymanager,4.2.0.Final,6.0.0.Alpha4,Error Only
+spotify-apollo,org.slf4j:slf4j-api,1.7.28,2.0.0-alpha1,Fail Only
+SpringMVC,com.baomidou:mybatis-plus-boot-starter,3.2.0,3.3.0,Error Only
+client_java,org.springframework:spring-web,4.3.9.RELEASE,5.2.2.RELEASE,Error Only
+client_java,org.springframework:spring-aop,4.3.9.RELEASE,5.2.2.RELEASE,Error Only
+client_java,org.springframework:spring-context,4.3.9.RELEASE,5.2.2.RELEASE,Error Only
+jitwatch,ch.qos.logback:logback-core,1.2.3,1.3.0-alpha5,Error Only
+picasso2-okhttp3-downloader,com.squareup.okhttp3:okhttp,3.0.1,4.3.0,Error Only
+picasso2-okhttp3-downloader,com.squareup.okhttp3:mockwebserver,3.0.1,4.3.0,Error Only
+jmxtrans,org.slf4j:slf4j-api,1.7.25,2.0.0-alpha1,Fail Only
+jmxtrans,org.slf4j:slf4j-log4j12,1.7.25,2.0.0-alpha1,Fail Only
+jmxtrans,com.google.inject:guice,4.1.0,4.2.2,Error Only
+jmxtrans,com.fasterxml.jackson.core:jackson-databind,2.8.9,2.10.1,Error Only
+jmxtrans,com.fasterxml.jackson.module:jackson-module-guice,2.8.9,2.10.1,Error Only
+ea-async,org.ow2.asm:asm-util,6.2.1,7.2,Error Only
+ea-async,org.ow2.asm:asm-tree,6.2.1,7.2,Error Only
+ea-async,org.ow2.asm:asm,6.2.1,7.2,Error Only
+aws-sdk-java-v2,io.netty:netty-transport,4.1.42.Final,5.0.0.Alpha2,Error Only
+aws-sdk-java-v2,io.netty:netty-common,4.1.42.Final,5.0.0.Alpha2,Error Only
+aws-sdk-java-v2,io.netty:netty-codec,4.1.42.Final,5.0.0.Alpha2,Fail + Error
+aws-sdk-java-v2,io.netty:netty-codec-http,4.1.42.Final,5.0.0.Alpha2,Fail + Error
+aws-sdk-java-v2,io.netty:netty-buffer,4.1.42.Final,5.0.0.Alpha2,Fail + Error
+aws-sdk-java-v2,com.github.tomakehurst:wiremock,2.18.0,2.25.1,Fail Only
+FakeSMTP,org.subethamail:subethasmtp,3.1.6,3.1.7,Error Only
+logbook,org.slf4j:slf4j-api,1.7.29,2.0.0-alpha1,Fail + Error
+logbook,org.springframework:spring-test,5.2.1.RELEASE,5.2.2.RELEASE,Fail Only
+logstash-logback-encoder,ch.qos.logback:logback-classic,1.2.3,1.3.0-alpha5,Error Only
+logstash-logback-encoder,ch.qos.logback:logback-access,1.2.3,1.3.0-alpha5,Error Only
+logstash-logback-encoder,ch.qos.logback:logback-core,1.2.3,1.3.0-alpha5,Error Only
+incubator-pinot,commons-configuration:commons-configuration,1.6,2.0-RCT,Fail Only
+incubator-pinot,org.glassfish.jersey.media:jersey-media-multipart,2.28,2.29.1,Fail Only
+incubator-pinot,nl.jqno.equalsverifier:equalsverifier,1.7.2,3.1.10,Fail Only
+incubator-pinot,com.google.guava:guava,20.0,28.1-jre,Fail Only
+incubator-pinot,it.unimi.dsi:fastutil,6.5.16,8.3.0,Fail Only
+incubator-pinot,com.microsoft.azure:azure-data-lake-store-sdk,2.1.5,2.3.8,Fail Only
+incubator-pinot,org.apache.thrift:libthrift,0.9.1,0.13.0,Fail Only
+incubator-pinot,com.fasterxml.jackson.core:jackson-databind,2.9.8,2.10.1,Fail Only
+incubator-pinot,org.scala-lang:scala-library,2.10.5,2.13.1,Fail Only
+incubator-pinot,io.netty:netty,3.9.6.Final,4.0.0.Alpha8,Fail Only
+incubator-pinot,io.netty:netty-all,4.1.28.Final,5.0.0.Alpha2,Fail Only
+incubator-pinot,commons-logging:commons-logging,1.2,99.0-does-not-exist,Fail Only
+map-matching,org.slf4j:slf4j-api,1.7.26,2.0.0-alpha1,Error Only
+map-matching,io.dropwizard:dropwizard-core,1.3.12,2.0.0,Error Only
+map-matching,io.dropwizard:dropwizard-testing,1.3.12,2.0.0,Error Only
+enunciate,io.swagger:swagger-annotations,1.5.22,2.0.0-rc2,Error Only
+enunciate,commons-collections:commons-collections,3.2.2,20040616,Error Only
+enunciate,com.fasterxml.jackson.core:jackson-databind,2.9.9.2,2.10.1,Error Only
+owner,org.apache.curator:curator-test,2.6.0,4.2.0,Error Only
+druid,org.javasimon:javasimon-spring,4.1.1,4.2.0,Fail Only
+druid,org.slf4j:slf4j-api,1.7.9,2.0.0-alpha1,Fail + Error
+druid,org.postgresql:postgresql,42.2.6,42.2.9.jre7,Fail Only
+druid,org.mybatis:mybatis-spring,1.3.0,2.0.3,Fail Only
+druid,com.aliyun.odps:odps-sdk-udf,0.17.3,0.32.5-public,Fail Only
+druid,com.aliyun.odps:odps-jdbc,1.6,3.0.2,Fail Only
+druid,javax.servlet:javax.servlet-api,3.1.0,4.0.1,Fail Only
+druid,org.apache.kylin:kylin-jdbc,2.0.0,3.0.0-alpha2,Fail Only
+druid,net.sourceforge.jtds:jtds,1.3.0,1.3.1,Fail Only
+druid,org.hibernate:hibernate-core,5.1.0.Final,6.0.0.Alpha3,Fail + Error
+druid,com.google.guava:guava,22.0,28.1-jre,Fail Only
+druid,org.hibernate:hibernate-c3p0,5.1.0.Final,6.0.0.Alpha3,Fail Only
+druid,org.apache.commons:commons-dbcp2,2.5.0,2.7.0,Fail Only
+druid,org.apache.logging.log4j:log4j-core,2.5,2.13.0,Fail Only
+druid,log4j:log4j,1.2.17,1.2.17-atlassian-1,Fail Only
+druid,org.springframework:spring-beans,4.3.20.RELEASE,5.2.2.RELEASE,Error Only
+druid,org.mybatis:mybatis,3.4.0,3.5.3,Fail Only
+druid,org.apache.derby:derby,10.12.1.1,10.15.1.3,Error Only
+druid,org.nutz:nutz,1.r.55,1.r.68.v20191031,Fail Only
+druid,com.alibaba:fastjson,1.2.36,1.2.62,Fail Only
+druid,org.quartz-scheduler:quartz,2.2.2,2.3.2,Fail Only
+druid,org.antlr:antlr4,4.7,4.7.2,Fail Only
+druid,org.slf4j:slf4j-log4j12,1.7.9,2.0.0-alpha1,Fail + Error
+druid,org.javasimon:javasimon-javaee,4.1.1,4.2.0,Fail Only
+druid,org.springframework:spring-core,4.3.20.RELEASE,5.2.2.RELEASE,Fail + Error
+druid,org.apache.tomcat:tomcat-jdbc,8.0.32,9.0.30,Fail Only
+graphql-spqr,org.slf4j:slf4j-api,1.7.25,2.0.0-alpha1,Error Only
+graphql-spqr,ch.qos.logback:logback-classic,1.2.3,1.3.0-alpha5,Error Only
+junit-quickcheck,ognl:ognl,3.1.12,3.2.12,Fail + Error
+junit-quickcheck,com.pholser:junit-quickcheck-core,0.8.2,0.9,Fail Only
+junit-quickcheck,ru.vyarus:generics-resolver,2.0.1,3.0.1,Fail Only
+docker-java,ch.qos.logback:logback-core,1.2.3,1.3.0-alpha5,Error Only
+objectify,com.google.appengine:appengine-api-1.0-sdk,1.9.24,1.9.77,Fail Only
+objectify,com.google.appengine:appengine-api-stubs,1.9.24,1.9.77,Fail Only
+objectify,com.google.appengine:appengine-testing,1.9.24,1.9.77,Fail Only
+reflectasm,org.ow2.asm:asm,5.1,7.2,Error Only
+flowable-engine,org.slf4j:slf4j-api,1.7.25,2.0.0-alpha1,Fail Only
+flowable-engine,org.slf4j:slf4j-log4j12,1.7.25,2.0.0-alpha1,Fail Only
+flowable-engine,org.flowable:flowable-process-validation,6.4.1,6.4.2,Error Only
+flowable-engine,org.flowable:flowable-cmmn-converter,6.4.1,6.4.2,Fail + Error
+flowable-engine,org.flowable:flowable-bpmn-converter,6.4.1,6.4.2,Fail + Error
+flowable-engine,org.flowable:flowable-engine-common,6.4.1,6.4.2,Error Only
+flowable-engine,org.flowable:flowable-idm-engine,6.4.1,6.4.2,Fail + Error
+flowable-engine,org.hibernate:hibernate-core,5.2.16.Final,6.0.0.Alpha3,Fail Only
+flowable-engine,org.tinyjee.jgraphx:jgraphx,1.10.4.1,3.4.1.3,Error Only
+flowable-engine,org.springframework:spring-beans,5.0.12.RELEASE,5.2.2.RELEASE,Fail + Error
+flowable-engine,com.fasterxml.jackson.core:jackson-databind,2.9.8,2.10.1,Fail + Error
+flowable-engine,org.drools:drools-compiler,7.6.0.Final,7.31.0.Final,Error Only
+flowable-engine,org.drools:drools-core,7.6.0.Final,7.31.0.Final,Error Only
+flowable-engine,com.h2database:h2,1.4.197,1.4.200,Fail + Error
+retrofit,com.squareup.wire:wire-runtime,2.2.0,3.0.2,Error Only
+retrofit,com.squareup.moshi:moshi,1.8.0,1.9.2,Fail Only
+retrofit,com.squareup.okhttp3:okhttp,3.12.0,4.2.2,Error Only
+geotools,systems.uom:systems-common-java8,0.7.2,1.0,Fail + Error
+geotools,picocontainer:picocontainer,1.2,20051006.1,Error Only
+geotools,edu.ucar:cdm,4.6.11,5.1.0,Error Only
+geotools,commons-collections:commons-collections,3.2.2,20040616,Error Only
+geotools,commons-logging:commons-logging,1.1.1,1.2,Fail Only
+modelmapper,com.squareup.dagger:dagger,1.0.1,1.2.5,Fail Only
+modelmapper,com.fasterxml.jackson.core:jackson-core,2.2.1,2.10.1,Fail Only
+modelmapper,com.fasterxml.jackson.core:jackson-databind,2.2.1,2.10.1,Fail Only
+reactive-grpc,io.grpc:grpc-core,1.19.0,1.26.0,Fail Only
+metrics-spring,org.springframework:spring-test,4.1.6.RELEASE,5.2.2.RELEASE,Error Only
+metrics-spring,org.springframework:spring-aop,4.1.6.RELEASE,5.2.2.RELEASE,Error Only
+metrics-spring,org.springframework:spring-beans,4.1.6.RELEASE,5.2.2.RELEASE,Error Only
+metrics-spring,org.springframework:spring-core,4.1.6.RELEASE,5.2.2.RELEASE,Error Only
+metrics-spring,io.dropwizard.metrics:metrics-graphite,3.1.2,4.1.2,Error Only
+metrics-spring,io.dropwizard.metrics:metrics-ganglia,3.1.2,3.2.6,Error Only
+sonar-gitlab-plugin,com.squareup.okhttp:mockwebserver,2.6.0,2.7.5,Fail + Error
+pitest,org.apache.maven:maven-toolchain,2.2.1,3.0-alpha-2,Error Only
+pitest,org.apache.maven:maven-plugin-api,2.2.1,3.6.3,Error Only
+pitest,nl.jqno.equalsverifier:equalsverifier,1.7.5,3.1.11,Fail Only
+pitest,pl.pragmatists:JUnitParams,1.0.4,1.1.1,Fail Only
+jprotobuf,com.google.protobuf:protobuf-java,2.5.0,3.11.1,Error Only
+aws-sdk-java,joda-time:joda-time,2.8.1,2.10.5,Fail + Error
+aws-sdk-java,com.github.tomakehurst:wiremock,1.55,2.25.1,Fail Only
+jvm-profiler,com.fasterxml.jackson.core:jackson-databind,2.9.10.1,2.10.1,Fail Only
+error-prone,com.google.guava:guava,23.5-jre,28.1-jre,Fail Only
+error-prone,com.google.testing.compile:compile-testing,0.15,0.18,Error Only
+error-prone,org.hamcrest:hamcrest-core,1.3,2.2,Fail Only
+error-prone,com.google.truth.extensions:truth-java8-extension,0.36,1.0,Error Only
+error-prone,com.google.truth:truth,0.39,1.0,Fail + Error
+shiro,org.slf4j:slf4j-api,1.7.21,2.0.0-alpha1,Fail Only
+shiro,ch.qos.logback:logback-classic,1.1.7,1.3.0-alpha5,Error Only
+shiro,org.slf4j:slf4j-log4j12,1.7.21,2.0.0-alpha1,Fail Only
+shiro,org.springframework:spring-webmvc,3.2.17.RELEASE,5.2.2.RELEASE,Error Only
+shiro,org.springframework:spring-test,3.2.17.RELEASE,5.2.2.RELEASE,Error Only
+shiro,org.springframework:spring-context,3.2.17.RELEASE,5.2.2.RELEASE,Error Only
+shiro,com.google.inject.extensions:guice-multibindings,3.0,4.2.2,Error Only
+shiro,org.easymock:easymock,3.4,4.1,Error Only
+burst,com.squareup.burst:burst,1.1.1,1.2.0,Fail Only
+ohc,org.apache.logging.log4j:log4j-slf4j-impl,2.3,2.13.0,Fail Only
+ohc,org.apache.logging.log4j:log4j-api,2.3,2.13.0,Fail Only
+couchdb-lucene,org.apache.httpcomponents:httpclient,4.0.1,4.5.10,Error Only
+couchdb-lucene,org.apache.tika:tika-parsers,1.6,1.23,Error Only
+structr,org.python:jython-standalone,2.7.1b3,2.7.2b2,Fail Only
+jongo,org.mongodb:mongo-java-driver,3.5.0,3.12.0,Fail Only
+jongo,com.fasterxml.jackson.core:jackson-databind,2.9.5,2.10.1,Error Only
+jongo,org.reflections:reflections,0.9.9-RC1,0.9.11,Error Only
+ShedLock,org.postgresql:postgresql,9.4.1212,42.2.9.jre7,Fail Only
+ShedLock,ch.qos.logback:logback-classic,1.2.3,1.3.0-alpha5,Fail + Error
+ShedLock,redis.clients:jedis,2.9.0,3.2.0,Error Only
+ShedLock,io.micronaut:micronaut-runtime,1.2.6,1.3.0.M2,Fail Only
+ShedLock,org.springframework:spring-test,5.1.9.RELEASE,5.2.2.RELEASE,Error Only
+ShedLock,org.springframework:spring-jdbc,5.1.9.RELEASE,5.2.2.RELEASE,Error Only
+ShedLock,org.junit.jupiter:junit-jupiter-api,5.5.0,5.6.0-M1,Error Only
+ShedLock,com.hazelcast:hazelcast-client,3.10.1,3.12.5,Error Only
+memcached-session-manager,org.apache.wicket:wicket,1.4.17,9.0.0-M3,Fail Only
+memcached-session-manager,org.apache.tomcat:tomcat-coyote,7.0.85,9.0.30,Fail Only
+memcached-session-manager,de.javakaffee.msm:memcached-session-manager-tc7,y,2.3.2,Fail Only
+memcached-session-manager,org.hibernate:hibernate-core,5.0.7.Final,6.0.0.Alpha4,Fail Only
+memcached-session-manager,org.grails:grails-web,3.1.0,4.0.1,Fail Only
+memcached-session-manager,joda-time:joda-time,2.9.2,2.10.5,Fail Only
+memcached-session-manager,org.apache.tomcat:catalina,6.0.45,6.0.53,Fail Only
+memcached-session-manager,redis.clients:jedis,2.9.0,3.2.0,Fail Only
+memcached-session-manager,org.apache.tomcat:tomcat-jasper,7.0.85,9.0.30,Fail Only
+memcached-session-manager,org.apache.tomcat:tomcat-servlet-api,7.0.85,9.0.30,Fail Only
+memcached-session-manager,de.javakaffee:kryo-serializers,0.41,0.45,Fail Only
+memcached-session-manager,de.javakaffee.msm:memcached-session-manager,y,2.3.2,Fail Only
+memcached-session-manager,org.apache.tomcat:catalina-ha,6.0.45,6.0.53,Fail Only
+memcached-session-manager,com.thoughtworks.xstream:xstream,1.4.7,1.4.11.1,Fail Only
+memcached-session-manager,com.esotericsoftware:kryo,4.0.0,5.0.0-RC4,Fail Only
+memcached-session-manager,org.codehaus.jettison:jettison,1.3.7,1.4.0,Fail Only
+memcached-session-manager,com.sun.faces:jsf-impl,2.2.12,2.3.9.SP05,Fail Only
+memcached-session-manager,org.apache.tomcat:coyote,6.0.45,6.0.53,Fail Only
+httpcomponents-client,commons-codec:commons-codec,1.12,1.13,Error Only
+httpcomponents-client,org.apache.logging.log4j:log4j-core,2.9.1,2.13.0,Error Only
+ExcelUtil,org.apache.poi:poi,3.17,4.1.1,Error Only
+spring-cloud-function,org.apache.maven:maven-embedder,3.3.9,3.6.3,Fail Only
+doctorkafka,org.apache.logging.log4j:log4j-core,2.11.1,2.13.0,Error Only
+jacoco,org.jacoco:jacoco-maven-plugin,0.8.4,0.8.5,Fail + Error
+ff4j,org.glassfish.jersey.core:jersey-client,2.22.1,2.29.1,Error Only
+ff4j,org.glassfish.jersey.core:jersey-server,2.22.1,2.29.1,Error Only
+ff4j,io.swagger:swagger-annotations,1.5.4,2.0.0-rc2,Error Only
+ff4j,org.mongodb:mongo-java-driver,2.13.3,3.12.0,Error Only
+ff4j,org.springframework:spring-test,4.3.17.RELEASE,5.2.2.RELEASE,Error Only
+ff4j,org.springframework:spring-jdbc,4.3.17.RELEASE,5.2.2.RELEASE,Error Only
+ff4j,org.springframework:spring-context,4.3.17.RELEASE,5.2.2.RELEASE,Fail + Error
+ff4j,org.springframework:spring-core,4.3.17.RELEASE,5.2.2.RELEASE,Error Only
+ff4j,com.fasterxml.jackson.core:jackson-databind,2.9.9,2.10.1,Error Only
+ff4j,com.github.fakemongo:fongo,1.6.8,2.2.0-RC2,Error Only
+minimal-json,com.fasterxml.jackson.core:jackson-databind,2.5.0,2.10.1,Error Only
+tabula-java,org.apache.pdfbox:pdfbox,2.0.9,2.0.18,Fail Only
+extentreports-java,org.jsoup:jsoup,1.9.2,1.12.1,Fail Only
+CorfuDB,de.javakaffee:kryo-serializers,0.41,0.45,Fail + Error
+CorfuDB,io.netty:netty-all,4.1.10.Final,5.0.0.Alpha2,Error Only
+languagetool,org.slf4j:slf4j-api,1.7.25,2.0.0-alpha1,Fail Only
+languagetool,ch.qos.logback:logback-classic,1.2.3,1.3.0-alpha5,Fail Only
+languagetool,tech.units:indriya,1.2,2.0.1,Error Only
+languagetool,ua.net.nlp:morfologik-ukrainian-lt,4.6.2,4.7.5,Fail Only
+languagetool,org.languagetool:language-fr,4.6,4.7,Error Only
+languagetool,org.languagetool:language-gl,4.6,4.7,Error Only
+languagetool,org.languagetool:language-es,4.6,4.7,Fail + Error
+languagetool,org.languagetool:language-uk,4.6,4.7,Error Only
+languagetool,org.languagetool:language-ca,4.6,4.7,Error Only
+languagetool,org.languagetool:language-pt,4.6,4.7,Error Only
+languagetool,org.languagetool:language-all,4.6,4.7,Error Only
+languagetool,org.languagetool:languagetool-core,4.6,4.7,Error Only
+languagetool,org.languagetool:language-en,4.6,4.7,Error Only
+languagetool,org.languagetool:language-de,4.6,4.7,Error Only
+languagetool,org.languagetool:language-pl,4.6,4.7,Error Only
+languagetool,org.languagetool:language-nl,4.6,4.7,Error Only
+languagetool,org.apache.derby:derby,10.10.1.1,10.15.1.3,Error Only
+languagetool,org.apache.lucene:lucene-backward-codecs,5.5.4,8.3.1,Error Only
+griffin,org.eclipse.persistence:org.eclipse.persistence.jpa,2.6.0,2.7.5,Error Only
+griffin,org.apache.hadoop:hadoop-client,2.7.1,3.2.1,Error Only
+datumbox-framework,com.datumbox:libsvm,3.22,3.23,Error Only
+hugegraph,com.baidu.hugegraph:hugegraph-common,1.6.0,1.6.16,Error Only
+jolokia,org.apache.httpcomponents:httpclient-osgi,4.5.3,4.5.10,Fail Only
+jolokia,org.jmockit:jmockit,1.8,1.49,Fail Only
+jolokia,com.github.tomakehurst:wiremock,1.58,2.25.1,Fail Only
+sofa-bolt,org.apache.logging.log4j:log4j-slf4j-impl,2.3,2.12.1,Error Only
+sofa-bolt,org.apache.logging.log4j:log4j-api,2.3,2.12.1,Error Only
+zipkin,org.slf4j:slf4j-api,1.7.28,2.0.0-alpha1,Fail Only
+webporter,us.codecraft:webmagic-core,0.6.1,0.7.3,Fail Only
+feast,io.jaegertracing:jaeger-client,0.31.0,1.1.0,Error Only
+feast,org.apache.kafka:kafka-clients,2.3.0,2.4.0,Error Only
+sofa-boot,org.jmockit:jmockit,1.4,1.48,Error Only
+GeoIP2-java,com.fasterxml.jackson.core:jackson-databind,2.9.5,2.10.1,Fail + Error
+glowroot,org.slf4j:slf4j-api,1.7.25,2.0.0-alpha1,Fail Only
+glowroot,ch.qos.logback:logback-core,1.2.3,1.3.0-alpha5,Fail + Error
+glowroot,com.google.guava:guava,20.0,28.2-jre,Fail Only
+abixen-platform,org.apache.logging.log4j:log4j-slf4j-impl,2.0.1,2.13.0,Error Only
+swagger-core,ch.qos.logback:logback-core,1.2.3,1.3.0-alpha5,Fail Only
+owlapi,org.eclipse.rdf4j:rdf4j-rio-rdfxml,2.3.2,3.1.0-M1,Error Only
+owlapi,org.eclipse.rdf4j:rdf4j-rio-nquads,2.3.2,3.1.0-M1,Error Only
+owlapi,org.eclipse.rdf4j:rdf4j-rio-trix,2.3.2,3.1.0-M1,Error Only
+owlapi,org.eclipse.rdf4j:rdf4j-rio-jsonld,2.3.2,3.1.0-M1,Error Only
+owlapi,org.eclipse.rdf4j:rdf4j-model,2.3.2,3.1.0-M1,Error Only
+owlapi,org.eclipse.rdf4j:rdf4j-rio-rdfjson,2.3.2,3.1.0-M1,Error Only
+owlapi,org.eclipse.rdf4j:rdf4j-rio-ntriples,2.3.2,3.1.0-M1,Error Only
+excel-streaming-reader,org.apache.poi:poi-ooxml,4.0.0,4.1.1,Error Only
+excel-streaming-reader,xml-apis:xml-apis,1.4.01,2.0.2,Error Only
+takes,org.slf4j:slf4j-simple,1.8.0-alpha2,2.0.0-alpha1,Error Only
+sonar-java,org.slf4j:slf4j-api,1.6.2,2.0.0-alpha1,Fail + Error
+sonar-java,org.jacoco:org.jacoco.core,0.8.3,0.8.5,Error Only
+sonar-java,org.assertj:assertj-core,3.6.1,3.14.0,Error Only
+BroadleafCommerce,org.springframework:spring-webmvc,4.3.18.RELEASE,5.2.2.RELEASE,Fail + Error
+BroadleafCommerce,org.springframework:spring-web,4.3.18.RELEASE,5.2.2.RELEASE,Fail Only
+BroadleafCommerce,org.springframework:spring-test,4.3.18.RELEASE,5.2.2.RELEASE,Error Only
+BroadleafCommerce,org.springframework:spring-jms,4.3.18.RELEASE,5.2.2.RELEASE,Fail + Error
+BroadleafCommerce,org.springframework:spring-beans,4.3.18.RELEASE,5.2.2.RELEASE,Error Only
+BroadleafCommerce,org.springframework:spring-orm,4.3.18.RELEASE,5.2.2.RELEASE,Fail + Error
+BroadleafCommerce,org.springframework:spring-context,4.3.18.RELEASE,5.2.2.RELEASE,Fail + Error
+BroadleafCommerce,org.springframework:spring-core,4.3.18.RELEASE,5.2.2.RELEASE,Fail Only
+BroadleafCommerce,org.hibernate:hibernate-core,4.1.11.Final,6.0.0.Alpha3,Fail Only
+BroadleafCommerce,org.hibernate:hibernate-validator,5.4.1.Final,6.1.0.Final,Fail + Error
+BroadleafCommerce,org.hibernate:hibernate-entitymanager,4.1.11.Final,6.0.0.Alpha3,Fail Only
+BroadleafCommerce,org.hibernate:hibernate-envers,4.1.11.Final,6.0.0.Alpha3,Fail + Error
+BroadleafCommerce,org.hibernate:hibernate-ehcache,4.1.11.Final,6.0.0.Alpha3,Fail + Error
+BroadleafCommerce,org.apache.httpcomponents:httpclient,4.5.6,4.5.10,Fail Only
+BroadleafCommerce,commons-collections:commons-collections,3.2.2,20040616,Fail Only
+BroadleafCommerce,org.easymock:easymock,2.5.1,4.1,Error Only
+jjwt,org.easymock:easymock,3.6,4.1,Error Only
+maven-plugins,org.apache.maven:maven-plugin-api,3.1.0,3.6.3,Error Only
+maven-plugins,org.apache.maven:maven-core,3.1.0,3.6.3,Error Only
+swagger-maven-plugin,net.javacrumbs.json-unit:json-unit,1.17.0,2.11.1,Fail Only
+swagger-maven-plugin,org.testng:testng,6.8.8,7.1.0,Fail Only
+swagger-maven-plugin,org.apache.maven:maven-core,2.0.9,3.6.3,Fail Only
+swagger-maven-plugin,org.apache.maven:maven-artifact,2.2.1,3.6.3,Fail Only
+swagger-maven-plugin,com.github.jknack:handlebars,1.3.2,4.1.2,Fail Only
+sofa-tracer,com.alibaba:dubbo,2.6.2,2.6.7,Error Only
+sofa-tracer,ch.qos.logback:logback-classic,1.1.11,1.3.0-alpha5,Error Only
+sofa-tracer,org.apache.logging.log4j:log4j-slf4j-impl,2.3,2.13.0,Error Only
+sofa-tracer,org.apache.logging.log4j:log4j-core,2.3,2.13.0,Error Only
+sofa-tracer,org.apache.logging.log4j:log4j-api,2.3,2.13.0,Error Only
+sofa-tracer,com.h2database:h2,1.4.197,1.4.200,Fail Only
+sofa-tracer,com.squareup.okhttp3:okhttp,3.12.1,4.3.0,Error Only
+FluentLenium,org.slf4j:slf4j-api,1.7.28,2.0.0-alpha1,Error Only
+FluentLenium,ch.qos.logback:logback-classic,1.2.3,1.3.0-alpha5,Error Only
+FluentLenium,ch.qos.logback:logback-core,1.2.3,1.3.0-alpha5,Fail + Error
+FluentLenium,org.seleniumhq.selenium:selenium-support,3.141.59,4.0.0-alpha-3,Fail + Error
+FluentLenium,org.seleniumhq.selenium:selenium-api,3.141.59,4.0.0-alpha-3,Error Only
+BitHub,io.dropwizard:dropwizard-core,0.7.0,2.0.0,Error Only
+BitHub,io.dropwizard:dropwizard-servlets,0.7.0,2.0.0,Error Only
+BitHub,io.dropwizard:dropwizard-client,0.7.0,2.0.0,Error Only
+BitHub,com.sun.jersey:jersey-json,1.18.1,1.19.4,Error Only
+allure1,com.google.inject:guice,4.0,4.2.2,Error Only
+xmemcached,org.easymock:easymockclassextension,2.4,3.2,Error Only
+xmemcached,org.easymock:easymock,2.4,4.1,Error Only
+fluent-validator,org.springframework:spring-test,4.1.7.RELEASE,5.2.2.RELEASE,Error Only
+fluent-validator,org.hibernate:hibernate-validator,5.2.1.Final,6.1.0.Final,Error Only
+nacos-spring-project,org.springframework:spring-test,3.2.18.RELEASE,5.2.2.RELEASE,Error Only
+nacos-spring-project,org.springframework:spring-core,3.2.18.RELEASE,5.2.2.RELEASE,Error Only
+vertx-web,io.swagger.parser.v3:swagger-parser-v3,2.0.14,2.0.17,Fail + Error
+vertx-web,org.mvel:mvel2,2.3.1.Final,2.4.5.Final,Fail Only
+vertx-web,io.vertx:vertx-web-client,3.8.4,4.0.0-milestone4,Fail + Error
+vertx-web,io.vertx:vertx-web-api-contract,3.8.4,4.0.0-milestone4,Fail Only
+vertx-web,io.vertx:vertx-web,3.8.4,4.0.0-milestone4,Error Only
+rocketmq-spring,org.apache.rocketmq:rocketmq-client,4.5.1,4.6.0,Error Only
+rocketmq-spring,org.springframework:spring-context,5.1.0.RELEASE,5.2.2.RELEASE,Error Only
+paoding-rose,org.springframework:spring-jdbc,3.2.4.RELEASE,5.2.2.RELEASE,Error Only
+webmagic,commons-collections:commons-collections,3.2.2,20040616,Error Only
+webmagic,org.jsoup:jsoup,1.8.3,1.12.1,Error Only
+webmagic,net.sourceforge.htmlcleaner:htmlcleaner,2.5,2.23,Fail Only
+webmagic,com.jayway.jsonpath:json-path,0.8.1,2.4.0,Error Only
+webmagic,us.codecraft:webmagic-core,0.7.2,0.7.3,Error Only
+webmagic,com.github.dreamhead:moco-core,0.11.0,1.0.0,Error Only
+jolt,com.google.inject:guice,4.1.0,4.2.2,Fail Only
+jolt,com.fasterxml.jackson.core:jackson-databind,2.5.0,2.10.1,Fail Only
+Jupiter,org.ow2.asm:asm,6.0,7.2,Error Only
+uReplicator,org.restlet.jse:org.restlet.ext.jetty,2.2.1,3.0-M1,Fail Only
+uReplicator,org.restlet.jse:org.restlet,2.2.1,3.0-M1,Fail Only
+uReplicator,com.yammer.metrics:metrics-core,2.2.0,3.0.0-BETA1,Fail Only
+uReplicator,com.alibaba:fastjson,1.1.41,1.2.62,Fail Only
+uReplicator,org.apache.helix:helix-core,0.6.8,0.9.1,Fail Only
+uReplicator,org.apache.kafka:kafka-clients,0.10.2.1,2.4.0,Fail Only
+sentry-java,org.apache.logging.log4j:log4j-slf4j-impl,2.8.2,2.13.0,Error Only
+sentry-java,org.apache.logging.log4j:log4j-core,2.8.2,2.13.0,Error Only
+sentry-java,ch.qos.logback:logback-core,1.2.1,1.3.0-alpha5,Error Only
+sentry-java,org.apache.logging.log4j:log4j-api,2.8.2,2.13.0,Error Only
+obd-java-api,org.easymock:easymock,3.3,4.1,Fail Only
+sonar-objective-c,org.codehaus.sonar:sonar-testing-harness,3.3,5.1,Error Only
+servicecomb-java-chassis,com.netflix.spectator:spectator-reg-servo,0.83.0,0.99.2,Fail Only
+servicecomb-java-chassis,io.netty:netty-transport,4.1.28.Final,5.0.0.Alpha2,Error Only
+servicecomb-java-chassis,io.netty:netty-resolver,4.1.28.Final,5.0.0.Alpha2,Error Only
+servicecomb-java-chassis,io.netty:netty-handler,4.1.28.Final,5.0.0.Alpha2,Fail + Error
+servicecomb-java-chassis,io.netty:netty-common,4.1.28.Final,5.0.0.Alpha2,Fail + Error
+servicecomb-java-chassis,io.netty:netty-codec-http,4.1.28.Final,5.0.0.Alpha2,Fail + Error
+servicecomb-java-chassis,io.netty:netty-buffer,4.1.28.Final,5.0.0.Alpha2,Fail + Error
+servicecomb-java-chassis,org.slf4j:slf4j-api,1.7.26,2.0.0-alpha1,Fail + Error
+servicecomb-java-chassis,ch.qos.logback:logback-classic,1.2.3,1.3.0-alpha5,Error Only
+servicecomb-java-chassis,org.apache.servicecomb:swagger-generator-springmvc,1.2.1,1.3.0,Error Only
+servicecomb-java-chassis,org.apache.servicecomb:swagger-generator-core,1.2.1,1.3.0,Error Only
+servicecomb-java-chassis,org.jmockit:jmockit,1.3,1.48,Error Only
+servicecomb-java-chassis,org.springframework:spring-web,4.3.20.RELEASE,5.2.2.RELEASE,Error Only
+servicecomb-java-chassis,org.springframework:spring-beans,4.3.20.RELEASE,5.2.2.RELEASE,Error Only
+servicecomb-java-chassis,org.springframework:spring-context,4.3.20.RELEASE,5.2.2.RELEASE,Error Only
+servicecomb-java-chassis,io.vertx:vertx-core,3.6.3,4.0.0-milestone4,Error Only
+servicecomb-java-chassis,io.vertx:vertx-web,3.6.3,4.0.0-milestone4,Error Only
+servicecomb-java-chassis,io.protostuff:protostuff-runtime,1.5.9,1.6.2,Error Only
+servicecomb-java-chassis,io.protostuff:protostuff-core,1.5.9,1.6.2,Error Only
+servicecomb-java-chassis,com.netflix.ribbon:ribbon-loadbalancer,2.2.5,2.7.17,Error Only
+servicecomb-java-chassis,com.netflix.ribbon:ribbon,2.2.5,2.7.17,Error Only
+servicecomb-java-chassis,io.swagger:swagger-core,1.5.22,2.0.0-rc2,Fail + Error
+servicecomb-java-chassis,com.fasterxml.jackson.core:jackson-databind,2.9.8,2.10.1,Error Only
+servicecomb-java-chassis,org.slf4j:slf4j-log4j12,1.7.26,2.0.0-alpha1,Fail + Error
+servicecomb-java-chassis,com.netflix.archaius:archaius-core,0.7.3,2.0.0-rc.7,Error Only
+servicecomb-java-chassis,javax.ws.rs:javax.ws.rs-api,2.0.1,2.1.1,Error Only
+goodsKill,org.springframework:spring-beans,4.3.18.RELEASE,5.2.2.RELEASE,Error Only
+spring-websocket-portfolio,org.springframework:spring-webmvc,5.1.5.RELEASE,5.2.2.RELEASE,Fail Only
+spring-websocket-portfolio,org.springframework:spring-test,5.1.5.RELEASE,5.2.2.RELEASE,Error Only
+heritrix3,commons-codec:commons-codec,1.6,20041127.09,Error Only
+heritrix3,com.sleepycat:je,4.1.6,18.3.12,Error Only
+heritrix3,org.apache.httpcomponents:httpclient,4.3.6,4.5.10,Fail + Error
+heritrix3,org.apache.httpcomponents:httpmime,4.3.6,4.5.10,Error Only
+heritrix3,org.mortbay.jetty:jetty-util,6.1.26,7.0.0.pre5,Fail Only
+heritrix3,org.springframework:spring-beans,3.0.5.RELEASE,5.2.2.RELEASE,Error Only
+heritrix3,org.springframework:spring-core,3.0.5.RELEASE,5.2.2.RELEASE,Error Only
+amazon-kinesis-client,org.slf4j:slf4j-api,1.7.25,2.0.0-alpha1,Error Only
+amazon-kinesis-client,ch.qos.logback:logback-classic,1.1.7,1.3.0-alpha5,Error Only
+jafka,com.fasterxml.jackson.core:jackson-databind,2.9.6,2.10.1,Error Only
+nanohttpd,org.apache.httpcomponents:httpclient,4.2.5,4.5.10,Fail Only
+nanohttpd,org.apache.httpcomponents:httpmime,4.2.5,4.5.10,Error Only
+pippo,org.jboss.weld.se:weld-se,2.3.1.Final,3.0.0.Alpha1,Error Only
+pippo,ro.pippo:pippo-undertow,1.11.0,1.12.0,Error Only
+pippo,org.infinispan:infinispan-core,8.2.2.Final,10.1.0.Final,Error Only
+mybatis-3,org.slf4j:slf4j-api,1.7.26,2.0.0-alpha1,Error Only
+mybatis-3,org.slf4j:slf4j-log4j12,1.7.26,2.0.0-alpha1,Error Only
+mybatis-3,org.apache.derby:derby,10.14.2.0,10.15.1.3,Fail + Error
+guice,cglib:cglib,3.2.8,3.3.0,Fail + Error
+jersey,org.eclipse.jetty:jetty-util,9.4.3.v20170317,10.0.0-alpha0,Fail + Error
+jersey,org.eclipse.jetty:jetty-server,9.4.3.v20170317,10.0.0-alpha0,Fail + Error
+jersey,org.osgi:org.osgi.core,4.2.0,6.0.0,Fail Only
+jersey,org.glassfish.grizzly:grizzly-http-client,1.13,1.16,Error Only
+jersey,org.glassfish.grizzly:grizzly-http-server,2.4.0,2.4.4,Error Only
+jersey,org.glassfish.grizzly:grizzly-http-servlet,2.4.0,2.4.4,Fail + Error
+jersey,javax.servlet:javax.servlet-api,3.0.1,4.0.1,Error Only
+jersey,javax.servlet:servlet-api,2.4,3.0-alpha-1,Fail Only
+jersey,org.glassfish.jersey.inject:jersey-hk2,2.26,2.29.1,Error Only
+jersey,org.glassfish.jersey.core:jersey-client,2.26,2.29.1,Fail + Error
+jersey,org.glassfish.jersey.core:jersey-common,2.26,2.29.1,Error Only
+jersey,org.glassfish.jersey.media:jersey-media-jaxb,2.26,2.29.1,Fail + Error
+jersey,org.glassfish.jersey.core:jersey-server,2.26,2.29.1,Fail + Error
+jersey,org.jmockit:jmockit,1.18,1.48,Fail + Error
+jersey,javax.validation:validation-api,1.1.0.Final,2.0.1.Final,Error Only
+jersey,org.apache.httpcomponents:httpclient,4.5,4.5.10,Fail + Error
+jersey,javax.persistence:persistence-api,1.0,1.0.2,Error Only
+jersey,org.glassfish.hk2:osgi-resource-locator,1.0.1,2.5.0-b42,Error Only
+jersey,javax.annotation:javax.annotation-api,1.2,1.3.2,Error Only
+jersey,io.netty:netty-all,4.1.5.Final,5.0.0.Alpha2,Fail + Error
+jersey,javax.ws.rs:javax.ws.rs-api,2.1,2.1.1,Fail Only
+moshi,com.github.tschuchortdev:kotlin-compile-testing,1.2.3,1.2.5,Fail Only
+rxjava-jdbc,com.h2database:h2,1.4.192,1.4.200,Fail Only
+Argus,javax.mail:mail,1.4.7,1.5.0-b01,Fail Only
+Argus,org.apache.httpcomponents:httpcore,4.4.9,4.4.12,Fail + Error
+Argus,ch.qos.logback:logback-classic,1.2.3,1.3.0-alpha5,Error Only
+Argus,com.google.inject:guice,4.0,4.2.2,Fail + Error
+Argus,javax.servlet:javax.servlet-api,4.0.0,4.0.1,Fail Only
+Argus,org.apache.curator:curator-client,2.10.0,4.2.0,Fail Only
+Argus,org.glassfish.jersey.inject:jersey-hk2,2.26,2.29.1,Fail + Error
+Argus,org.apache.hbase:hbase-client,1.4.2,2.2.2,Fail + Error
+Argus,org.apache.curator:curator-x-discovery,2.10.0,4.2.0,Fail Only
+Argus,org.glassfish.jersey.core:jersey-common,2.26,2.29.1,Fail Only
+Argus,org.apache.derby:derbyclient,10.12.1.1,10.15.1.3,Fail Only
+Argus,com.google.guava:guava,23.0,28.2-jre,Fail Only
+Argus,org.apache.zookeeper:zookeeper,3.4.10,3.5.6,Fail + Error
+Argus,com.googlecode.concurrent-trees:concurrent-trees,2.6.0,2.6.1,Fail Only
+Argus,com.yammer.metrics:metrics-core,2.2.0,3.0.0-c0c8be71,Error Only
+Argus,org.apache.curator:curator-framework,2.11.1,4.2.0,Fail Only
+Argus,org.apache.httpcomponents:httpclient,4.5.3,4.5.10,Fail + Error
+Argus,org.quartz-scheduler:quartz-jobs,2.2.2,2.3.2,Fail + Error
+Argus,com.google.inject.extensions:guice-persist,4.0,4.2.2,Fail + Error
+Argus,com.salesforce.argus:argus-core,2.19.0,2.22.0,Fail + Error
+Argus,org.eclipse.persistence:eclipselink,2.6.4,2.7.5,Fail Only
+Argus,com.google.code.gson:gson,2.5,2.8.6,Fail + Error
+Argus,net.openhft:zero-allocation-hashing,0.8,0.10.1,Fail + Error
+Argus,com.fasterxml.jackson.core:jackson-databind,2.9.5,2.10.1,Error Only
+Argus,io.jsonwebtoken:jjwt,0.9.0,0.9.1,Fail + Error
+Argus,org.apache.derby:derby,10.12.1.1,10.15.1.3,Fail + Error
+Argus,com.fasterxml.jackson.core:jackson-annotations,2.9.5,2.10.1,Fail + Error
+Argus,ch.qos.logback:logback-core,1.2.3,1.3.0-alpha5,Error Only
+Argus,org.antlr:ST4,4.0.7,4.2,Fail + Error
+Argus,org.apache.curator:curator-test,2.8.0,4.2.0,Fail + Error
+Argus,org.quartz-scheduler:quartz,2.2.2,2.3.2,Fail + Error
+Argus,org.hbase:asynchbase,1.8.0,1.8.2,Fail Only
+Argus,org.elasticsearch.client:rest,5.5.1,6.0.0-alpha2,Fail + Error
+Argus,org.apache.kafka:kafka_2.10,0.8.2.1,0.10.2.3.0.3.0-6,Error Only
+Argus,org.scala-lang:scala-library,2.10.5,2.13.1,Error Only
+Argus,com.101tec:zkclient,0.3,0.11,Fail Only
+Argus,com.fasterxml.jackson.jaxrs:jackson-jaxrs-base,2.9.5,2.10.2,Fail + Error
+Argus,com.salesforce.argus:argus,2.19.0,2.22.0,Fail + Error
+Argus,org.hibernate:hibernate-jpamodelgen,5.0.6.Final,6.0.0.Alpha4,Fail + Error
+Argus,net.sf.jopt-simple:jopt-simple,3.2,6.0-alpha-3,Fail + Error
+Argus,com.github.brandtg:stl-java,0.1.1,0.1.2,Fail + Error
+signpost,org.apache.httpcomponents:httpclient,4.0.1,4.5.10,Error Only
+signpost,oauth.signpost:signpost-core,1.2.1.1,1.2.1.2,Error Only
+spring-data-neo4j,javax.interceptor:javax.interceptor-api,1.2.1,3.1,Error Only
+spring-data-neo4j,org.hibernate:hibernate-validator,5.1.2.Final,6.1.0.Final,Error Only
+cron-utils,org.hibernate:hibernate-validator,5.2.4.Final,6.1.0.Final,Error Only
+apk-parser,org.bouncycastle:bcpkix-jdk15on,1.58,1.64,Error Only
+rtree,com.esotericsoftware:kryo,3.0.3,5.0.0-RC4,Error Only
+artemis-odb,org.ow2.asm:asm-util,5.0.4,7.2,Error Only
+artemis-odb,org.ow2.asm:asm-tree,5.0.4,7.2,Error Only
+artemis-odb,org.ow2.asm:asm,5.0.4,7.2,Fail + Error
+cicada,ch.qos.logback:logback-classic,1.1.11,1.3.0-alpha5,Error Only
+cicada,ch.qos.logback:logback-core,1.1.11,1.3.0-alpha5,Error Only
+light-4j,org.slf4j:slf4j-api,1.7.25,2.0.0-alpha1,Error Only
+light-4j,ch.qos.logback:logback-classic,1.2.3,1.3.0-alpha5,Error Only
+light-4j,com.networknt:balance,1.6.10,2.0.8,Error Only
+light-4j,com.networknt:monad-result,1.6.10,2.0.8,Error Only
+light-4j,com.networknt:utility,1.6.10,2.0.8,Error Only
+light-4j,com.networknt:decryptor,1.6.10,2.0.8,Error Only
+light-4j,com.networknt:switcher,1.6.10,2.0.8,Error Only
+light-4j,com.networknt:config,1.6.10,2.0.8,Error Only
+light-4j,com.networknt:service,1.6.10,2.0.8,Fail + Error
+light-4j,com.networknt:status,1.6.10,2.0.8,Error Only
+light-4j,com.networknt:registry,1.6.10,2.0.8,Error Only
+light-4j,commons-codec:commons-codec,1.11,20041127.09,Fail Only
+light-4j,com.fasterxml.jackson.core:jackson-databind,2.9.10,2.10.1,Error Only
+openhtmltopdf,com.openhtmltopdf:openhtmltopdf-core,1.0.0,1.0.1,Fail Only
+rocker,org.antlr:antlr4-runtime,4.5.3,4.7.2,Fail Only
+lavagna,org.springframework:spring-test,5.0.7.RELEASE,5.2.2.RELEASE,Error Only
+lavagna,org.springframework:spring-jdbc,5.0.7.RELEASE,5.2.2.RELEASE,Error Only
+lavagna,org.apache.logging.log4j:log4j-core,2.11.0,2.13.0,Error Only
+Mybatis-PageHelper,org.mybatis:mybatis,3.4.4,3.5.3,Error Only
+togglz,org.mongodb:mongo-java-driver,3.4.0,3.12.0,Error Only
+togglz,org.apache.deltaspike.core:deltaspike-core-api,1.7.2,1.9.2,Error Only
+togglz,com.github.fakemongo:fongo,2.0.6,2.2.0-RC2,Error Only
+togglz,com.google.appengine:appengine-api-1.0-sdk,1.9.38,1.9.77,Error Only
+togglz,com.google.appengine:appengine-api-stubs,1.9.38,1.9.77,Error Only
+togglz,org.springframework:spring-test,3.2.17.RELEASE,5.2.2.RELEASE,Error Only
+togglz,org.springframework:spring-context,3.2.17.RELEASE,5.2.2.RELEASE,Error Only
+postgresql-embedded,org.springframework:spring-test,4.3.2.RELEASE,5.2.2.RELEASE,Error Only
+postgresql-embedded,org.springframework:spring-beans,4.3.2.RELEASE,5.2.2.RELEASE,Error Only
+postgresql-embedded,org.springframework:spring-context,4.3.2.RELEASE,5.2.2.RELEASE,Error Only
+postgresql-embedded,org.springframework:spring-core,4.3.2.RELEASE,5.2.2.RELEASE,Error Only
+phoenix,org.apache.hbase:hbase-protocol,1.4.10,2.2.2,Error Only
+phoenix,org.apache.hbase:hbase-metrics,1.4.10,2.2.2,Error Only
+phoenix,com.google.protobuf:protobuf-java,2.5.0,3.11.1,Error Only
+phoenix,org.jruby.joni:joni,2.1.2,2.1.30,Error Only
+checkstyle,org.jacoco:org.jacoco.agent,0.8.4,0.8.5,Fail + Error
+natty,org.mnode.ical4j:ical4j,1.0.2,3.0.11,Error Only
+psi-probe,org.apache.tomcat:tomcat-coyote,9.0.27,9.0.30,Error Only
+psi-probe,org.apache.tomcat:tomcat-catalina,9.0.27,9.0.30,Fail Only
+psi-probe,org.jmockit:jmockit,1.48,1.49,Error Only
+gravitee-gateway,io.gravitee.plugin:gravitee-plugin-policy,1.8.0,1.11.0,Error Only
+gravitee-gateway,io.gravitee.gateway:gravitee-gateway-http,1.25.17,1.30.1,Fail Only
+gravitee-gateway,io.gravitee.alert:gravitee-alert-api,1.1.0,1.2.1,Error Only
+gravitee-gateway,io.gravitee.plugin:gravitee-plugin-resource,1.8.0,1.11.0,Error Only
+gravitee-gateway,io.gravitee.gateway:gravitee-gateway-policy,1.25.17,1.30.1,Error Only
+gravitee-gateway,io.gravitee.definition:gravitee-definition-model,1.18.1,1.20.0,Error Only
+gravitee-gateway,io.gravitee.gateway:gravitee-gateway-reactor,1.25.17,1.30.1,Error Only
+gravitee-gateway,org.springframework:spring-beans,5.1.5.RELEASE,5.2.2.RELEASE,Error Only
+gravitee-gateway,org.springframework:spring-context,5.1.5.RELEASE,5.2.2.RELEASE,Error Only
+gravitee-gateway,io.vertx:vertx-circuit-breaker,3.7.1,4.0.0-milestone4,Fail Only
+gravitee-gateway,io.vertx:vertx-web,3.7.1,4.0.0-milestone4,Error Only
+macrobase,org.apache.logging.log4j:log4j-slf4j-impl,2.10.0,2.13.0,Error Only
+macrobase,org.apache.spark:spark-sql_2.11,2.2.1,2.4.4,Error Only
+macrobase,org.apache.spark:spark-core_2.11,2.2.1,2.4.4,Error Only
+macrobase,com.esotericsoftware:kryo,3.0.3,5.0.0-RC4,Error Only
+DotCi,org.mongodb:mongo-java-driver,2.11.0,3.12.0,Fail + Error
+DotCi,com.sonyericsson.hudson.plugins.rebuild:rebuild,1.25,1.31,Error Only
+jdonframework,org.apache.logging.log4j:log4j-core,2.11.0,2.13.0,Error Only
+TLS-Attacker,org.apache.logging.log4j:log4j-core,2.9.0,2.13.0,Fail + Error
+dataverse,javax:javaee-api,7.0,8.0.1,Error Only
+dataverse,org.junit.jupiter:junit-jupiter-params,5.3.1,5.6.0-M1,Error Only
+dataverse,org.junit.jupiter:junit-jupiter-api,5.3.1,5.6.0-M1,Error Only
+aws-serverless-java-container,org.hibernate:hibernate-validator,5.4.1.Final,6.1.0.Final,Error Only
+citrus,org.springframework:spring-tx,3.2.4.RELEASE,5.2.2.RELEASE,Fail Only
+citrus,org.springframework:spring-webmvc,3.2.4.RELEASE,5.2.2.RELEASE,Error Only
+citrus,org.springframework:spring-web,3.2.4.RELEASE,5.2.2.RELEASE,Error Only
+citrus,org.springframework:spring-test,3.2.4.RELEASE,5.2.2.RELEASE,Error Only
+citrus,org.springframework:spring-aop,3.2.4.RELEASE,5.2.2.RELEASE,Fail Only
+citrus,org.springframework:spring-beans,3.2.4.RELEASE,5.2.2.RELEASE,Error Only
+citrus,org.springframework:spring-context,3.2.4.RELEASE,5.2.2.RELEASE,Error Only
+citrus,org.springframework:spring-core,3.2.4.RELEASE,5.2.2.RELEASE,Fail + Error
+citrus,com.alibaba.citrus:citrus-webx-all,3.1.5,3.2.4,Fail Only
+citrus,org.slf4j:slf4j-api,1.7.5,2.0.0-alpha1,Fail + Error
+citrus,ch.qos.logback:logback-classic,1.0.13,1.3.0-alpha5,Fail + Error
+citrus,org.slf4j:slf4j-log4j12,1.7.5,2.0.0-alpha1,Fail + Error
+citrus,org.httpunit:httpunit,1.7.2,1.7.3,Fail + Error
+citrus,org.hamcrest:hamcrest-library,1.1,2.2,Error Only
+citrus,org.apache.tomcat:jasper,6.0.37,6.0.53,Fail Only
+citrus,javax.mail:mail,1.4.7,1.5.0-b01,Fail Only
+citrus,org.freemarker:freemarker,2.3.20,2.3.29,Fail Only
+citrus,commons-fileupload:commons-fileupload,1.3,1.4,Fail Only
+citrus,xerces:xercesImpl,2.11.0,2.12.0,Fail Only
+citrus,cglib:cglib-nodep,2.2.2,3.3.0,Error Only
+ebean,com.h2database:h2,1.4.197,1.4.200,Fail Only
+elide,ch.qos.logback:logback-classic,1.2.3,1.3.0-alpha5,Error Only
+elide,ch.qos.logback:logback-core,1.2.3,1.3.0-alpha5,Fail + Error
+elide,org.hibernate:hibernate-entitymanager,5.4.2.Final,6.0.0.Alpha4,Fail + Error
+elide,com.h2database:h2,1.4.199,1.4.200,Error Only
+AthenaX,com.google.guava:guava,20,28.2-jre,Error Only
+AthenaX,org.apache.flink:flink-core,1.5.0,1.9.1,Fail + Error
+AthenaX,org.apache.hadoop:hadoop-client,2.7.4,3.2.1,Error Only
+AthenaX,org.scala-lang:scala-library,2.11.11,2.13.1,Error Only
+swift,io.takari.maven.plugins:takari-plugin-testing,2.2.0,2.9.2,Fail Only
+galen,com.fasterxml.jackson.core:jackson-databind,2.9.7,2.10.1,Fail Only
+YCSB,org.apache.tomcat.embed:tomcat-embed-jasper,8.0.28,9.0.30,Error Only
+YCSB,org.apache.tomcat.embed:tomcat-embed-websocket,8.0.28,9.0.30,Error Only
+YCSB,org.apache.accumulo:accumulo-minicluster,1.6.6,2.0.0,Error Only
+YCSB,org.apache.accumulo:accumulo-core,1.6.6,2.0.0,Error Only
+YCSB,org.apache.logging.log4j:log4j-slf4j-impl,2.7,2.13.0,Error Only
+YCSB,org.apache.logging.log4j:log4j-core,2.8.2,2.13.0,Error Only
+YCSB,org.apache.logging.log4j:log4j-api,2.8.2,2.13.0,Error Only
+YCSB,org.slf4j:slf4j-log4j12,1.7.5,2.0.0-alpha1,Error Only
+YCSB,org.apache.hbase:hbase-client,1.0.2,2.2.2,Error Only
+YCSB,org.apache.zookeeper:zookeeper,3.4.5,3.5.6,Error Only
+YCSB,org.apache.hadoop:hadoop-common,2.2.0,3.2.1,Error Only
+YCSB,com.orientechnologies:orientdb-client,2.2.37,3.1.0-M3,Fail + Error
+YCSB,org.glassfish.jersey.core:jersey-server,2.6,2.29.1,Fail Only
+chaos-monkey-spring-boot,org.slf4j:jcl-over-slf4j,1.7.25,2.0.0-alpha1,Error Only
+chaos-monkey-spring-boot,org.springframework:spring-aspects,5.1.8.RELEASE,5.2.2.RELEASE,Error Only
+rest-assured,org.springframework:spring-webmvc,4.3.23.RELEASE,5.2.2.RELEASE,Fail + Error
+rest-assured,org.springframework:spring-test,4.3.23.RELEASE,5.2.2.RELEASE,Fail + Error
+rest-assured,org.springframework:spring-webflux,5.1.0.RELEASE,5.2.2.RELEASE,Fail + Error
+rest-assured,org.springframework:spring-context,5.1.0.RELEASE,5.2.2.RELEASE,Fail + Error
+rest-assured,org.codehaus.groovy:groovy-xml,2.5.6,3.0.0-rc-2,Error Only
+rest-assured,org.codehaus.groovy:groovy,2.5.6,3.0.0-rc-2,Fail Only
+rest-assured,com.fasterxml.jackson.core:jackson-databind,2.9.9,2.10.1,Error Only
+s3proxy,org.apache.jclouds:jclouds-allblobstore,2.1.2,2.2.0,Fail Only
+s3proxy,org.apache.jclouds.api:filesystem,2.1.2,2.2.0,Fail Only
+s3proxy,org.testng:testng,6.8.21,7.1.0,Fail Only
+spring-hateoas,javax.servlet:javax.servlet-api,3.1.0,4.0.1,Error Only
+Jest,org.elasticsearch.plugin:reindex-client,6.3.1,7.5.1,Error Only
+Jest,org.elasticsearch.plugin:transport-netty4-client,6.3.1,7.5.1,Error Only
+Jest,org.elasticsearch.plugin:percolator-client,6.3.1,7.5.1,Error Only
+Jest,org.codelibs.elasticsearch.module:lang-painless,6.3.1,7.5.1,Error Only
+Jest,org.elasticsearch.plugin:lang-mustache-client,6.3.1,7.5.1,Error Only
+Jest,org.apache.lucene:lucene-codecs,7.3.1,8.3.1,Error Only
+Jest,org.apache.lucene:lucene-test-framework,7.3.1,8.3.1,Error Only
+Jest,org.apache.logging.log4j:log4j-core,2.7,2.13.0,Error Only
+Jest,org.apache.logging.log4j:log4j-api,2.7,2.13.0,Error Only
+Jest,com.google.guava:guava,21.0,28.1-jre,Error Only
+Jest,org.apache.httpcomponents:httpclient,4.5.3,4.5.10,Error Only
+Jest,com.google.code.gson:gson,2.8.0,2.8.6,Fail + Error
+QRGen,com.google.zxing:core,3.3.0,3.4.0,Error Only
+apollo,org.slf4j:slf4j-api,1.7.21,2.0.0-alpha1,Fail Only
+apollo,com.google.inject:guice,4.1.0,4.2.2,Error Only
+apollo,com.ctrip.framework.apollo:apollo-client,1.4.0,1.5.1,Error Only
+apollo,com.google.guava:guava,19.0,28.1-jre,Error Only
+apollo,com.h2database:h2,1.4.191,1.4.200,Error Only
+apollo,com.squareup.okhttp3:mockwebserver,3.11.0,4.2.2,Error Only
+apollo,com.squareup.okhttp3:okhttp,3.11.0,4.2.2,Error Only
+xstream,org.codehaus.woodstox:wstx-asl,3.2.7,4.0.6,Fail Only
+xstream,joda-time:joda-time,1.6,2.10.5,Fail Only
+xstream,org.codehaus.jettison:jettison,1.2,1.4.0,Fail Only
+mybatis-generator-gui,ch.qos.logback:logback-classic,1.1.2,1.3.0-alpha5,Error Only
+mockserver,org.springframework:spring-test,4.3.18.RELEASE,5.2.2.RELEASE,Fail Only
+mockserver,com.fasterxml.jackson.core:jackson-core,2.9.9,2.10.1,Fail Only
+mockserver,com.fasterxml.jackson.core:jackson-databind,2.9.9,2.10.1,Fail + Error
+mockserver,io.netty:netty-buffer,4.1.35.Final,5.0.0.Alpha2,Fail + Error
+mockserver,io.netty:netty-codec,4.1.35.Final,5.0.0.Alpha2,Fail + Error
+TwelveMonkeys,org.apache.xmlgraphics:batik-transcoder,1.9,1.12,Error Only
+TwelveMonkeys,org.apache.xmlgraphics:batik-svggen,1.9,1.12,Error Only
+TwelveMonkeys,org.apache.xmlgraphics:batik-extension,1.9,1.12,Error Only
+alexa-skills-kit-sdk-for-java,com.fasterxml.jackson.core:jackson-databind,2.9.10.1,2.10.1,Error Only
+isis,org.junit.jupiter:junit-jupiter-api,5.4.1,5.6.0-M1,Error Only
+isis,com.fasterxml.jackson.core:jackson-databind,2.9.8,2.10.2,Error Only
+isis,org.reflections:reflections,0.9.10,0.9.11,Error Only
+immutables,org.elasticsearch.plugin:transport-netty4-client,7.1.0,7.5.1,Error Only
+immutables,org.elasticsearch:elasticsearch,7.1.0,7.5.1,Error Only
+immutables,org.codelibs.elasticsearch.module:lang-painless,7.1.0,7.5.1,Error Only
+immutables,org.immutables:value-processor,2.8.0,2.8.3,Fail Only
+immutables,org.immutables:criteria-common,2.8.0,2.8.3,Error Only
+immutables,org.glassfish.jersey.core:jersey-client,2.11,2.29.1,Fail Only
+immutables,org.hamcrest:hamcrest-library,1.3,2.2,Error Only
+immutables,org.junit.jupiter:junit-jupiter-api,5.5.2,5.6.0-M1,Error Only
+immutables,org.apache.logging.log4j:log4j-core,2.11.2,2.13.0,Error Only
+immutables,com.fasterxml.jackson.core:jackson-databind,2.8.11.3,2.10.1,Error Only
+jsprit,commons-configuration:commons-configuration,1.9,1.1,Error Only
+wasabi,com.google.inject:guice,4.0,4.2.2,Error Only
+wasabi,org.apache.httpcomponents:httpclient,4.5.1,4.5.10,Fail Only
+wasabi,com.datastax.cassandra:cassandra-driver-core,3.0.3,4.0.0,Error Only
+wasabi,com.datastax.cassandra:cassandra-driver-mapping,3.0.3,3.8.0,Error Only
+wasabi,com.fasterxml.jackson.core:jackson-databind,2.7.2,2.10.1,Error Only
+exhibitor,org.apache.curator:curator-test,2.7.1,4.2.0,Fail Only
+distributed-redis-tool,org.springframework:spring-beans,4.2.1.RELEASE,5.2.2.RELEASE,Error Only
+distributed-redis-tool,org.springframework:spring-core,4.2.1.RELEASE,5.2.2.RELEASE,Error Only

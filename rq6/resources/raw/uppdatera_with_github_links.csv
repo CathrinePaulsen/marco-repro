@@ -1,0 +1,20 @@
+PR,GA,GA GitHub,old version,new version,update type,compatible (ground truth),compatible (test suite),compatible (Uppdarera)
+spotify/dbeam#189,org.apache.avro:avro,apache/avro,1.9.1,1.9.2,patch,1,0,0
+airsonic/airsonic#1622,org.apache.commons:commons-lang3,apache/commons-lang,3.9,3.10,minor,1,1,0
+bitrich-info/xchange-stream#570,com.pubnub:pubnub-gson,pubnub/java,4.31.0,4.31.1,patch,1,1,0
+CROSSINGTUD/CryptoAnalysis#245,org.eclipse.emf:org.eclipse.emf.common,eclipse-emf/org.eclipse.emf,2.15.0,2.18.0,minor,1,1,0
+dbmdz/imageio-jnr#84,com.github.jnr:jnr-ffi,jnr/jnr-ffi,2.1.12,2.1.13,patch,1,1,0
+dnsimple/dnsimple-java#23,com.google.code.gson:gson,google/gson,2.2.4,2.8.6,minor,1,1,1
+smallrye/smallrye-config#289,io.smallrye.common:smallrye-common-expression,smallrye/smallrye-common,1.0.0,1.0.1,patch,1,1,1
+dropwizard/metrics#1567,org.jdbi:jdbi3-core,jdbi/jdbi,3.12.2,3.13.0,minor,1,1,1
+s4u/pgverify-maven-plugin#96,io.github.resilience4j:resilience4j-retry,resilience4j/resilience4j,1.3.1,1.4.0,minor,1,1,1
+UniversalMediaServer/UniversalMediaServer#1987,org.apache.commons:commons-text,apache/commons-text,1.3,1.8,minor,0,1,0
+CSUC/wos-times-cited-service#36,org.apache.httpcomponents:httpclient,,4.5.11,4.5.12,patch,1,1,0
+Grundlefleck/ASM-NonClassloadingExtensions#25,org.ow2.asm:asm-analysis,,7.0,8.0.1,major,1,1,0
+RohanNagar/lightning#211,io.dropwizard:dropwizard-auth,dropwizard/dropwizard,1.3.17,2.0.8,major,0,0,0
+zalando/riptide#932,io.micrometer:micrometer-core,micrometer-metrics/micrometer,1.3.6,1.4.1,minor,0,1,0
+pinterest/secor#1273,com.amazonaws:aws-java-sdk-s3,aws/aws-sdk-java,1.11.763,1.11.764,patch,1,1,1
+michael-simons/neo4j-migrations#60,io.github.classgraph:classgraph,classgraph/classgraph,4.8.68,4.8.71,patch,1,1,1
+zaproxy/crawljax#115,org.apache.commons:commons-lang3,apache/commons-lang,3.3.2,3.10,minor,0,1,0
+hub4j/github-api#793,com.squareup.okio:okio,square/okio,2.5.0,2.6.0,minor,1,1,1
+zalando/logbook#750,io.netty:netty-codec-http,netty/netty,4.1.48.Final,4.1.49.Final,patch,1,1,1

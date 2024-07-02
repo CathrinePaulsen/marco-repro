@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdTest
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! -- in com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdTest
+com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdTest.testBigDecimal965StringBased -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'boolean com.fasterxml.jackson.core.io.NumberInput.looksLikeValidNumber(java.lang.String)'
+	at com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdTest.testBigDecimal965StringBased(ExternalTypeIdTest.java:553)
+

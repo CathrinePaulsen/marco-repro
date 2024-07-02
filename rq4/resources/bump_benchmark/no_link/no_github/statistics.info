@@ -1,0 +1,1 @@
+{"failure_categories": {"TEST_FAILURE": 2, "COMPILATION_FAILURE": 2}, "dependency_section": {"dependencies": 4}, "updated_file_types": {"JAR": 4}, "version_update_types": {"patch": 2, "minor": 1, "major": 1}, "dynamically_compatibles": {}, "duplicates": 0, "num_datapoints": 4}

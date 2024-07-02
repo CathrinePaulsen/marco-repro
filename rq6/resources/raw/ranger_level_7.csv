@@ -1,0 +1,31 @@
+project,dep,dep_range,project_depth,status,Incompatibility,No suitable version,"Error (no jar, call graph)"
+org.wso2.carbon.identity.carbon.auth.iwa|org.wso2.carbon.identity.authenticator.iwa.ui.feature|5.5.0,org.wso2.carbon.identity.carbon.auth.iwa|org.wso2.carbon.identity.authenticator.iwa.ui|5.5.0,null,7,failed,,,Y
+org.wso2.am.choreo.extensions|org.wso2.am.choreo.extensions.operation.policy.provider.bcentralprovider.feature|1.1.46,org.wso2.am.choreo.extensions|org.wso2.am.choreo.extensions.operation.policy.provider.bcentralprovider|1.1.46,null,7,failed,,,Y
+org.wso2.carbon.identity.inbound.auth.sts|org.wso2.carbon.identity.sts.mgt.feature|5.7.5,org.wso2.carbon.identity.inbound.auth.sts|org.wso2.carbon.identity.sts.mgt.server.feature|5.7.5,null,7,failed,,,Y
+org.wso2.am.choreo.extensions|org.wso2.am.choreo.extensions.persistence.mongodb.feature|1.1.44,org.wso2.am.choreo.extensions|org.wso2.am.choreo.extensions.persistence.mongodb|1.1.44,null,7,failed,,,Y
+org.wso2.carbon.apimgt|org.wso2.carbon.apimgt.feature|9.15.3,org.wso2.carbon.apimgt|org.wso2.carbon.apimgt.keymanager.feature|9.15.3,null,7,failed,,,Y
+org.wso2.carbon.apimgt|org.wso2.carbon.apimgt.feature|9.15.4,org.wso2.carbon.apimgt|org.wso2.carbon.apimgt.keymanager.feature|9.15.4,null,7,failed,,,Y
+org.daisy.pipeline.modules|dtbook-to-zedai|3.0.0,org.daisy.pipeline.modules|dtbook-utils|3.0.0,No suitable version,7,failed,,Y,
+org.daisy.pipeline.modules|dtbook-to-html|3.0.0,org.daisy.pipeline.modules|dtbook-utils|3.0.0,No suitable version,7,failed,,Y,
+org.daisy.pipeline.modules|daisy3-utils|3.0.3,org.daisy.pipeline.modules|dtbook-utils|3.0.0,No suitable version,7,failed,,Y,
+org.wso2.am.choreo.extensions|org.wso2.am.choreo.extensions.persistence.mongodb.feature|1.1.47,org.wso2.am.choreo.extensions|org.wso2.am.choreo.extensions.persistence.mongodb|1.1.47,null,7,failed,,,Y
+org.daisy.pipeline.modules|dtbook-to-html|3.0.1,org.daisy.pipeline.modules|dtbook-utils|3.1.0,No suitable version,7,failed,,Y,
+org.daisy.pipeline.modules|dtbook-to-odt|2.1.6,org.daisy.pipeline.modules|dtbook-utils|3.0.0,No suitable version,7,failed,,Y,
+org.daisy.pipeline.modules|daisy3-utils|4.0.0,org.daisy.pipeline.modules|dtbook-utils|3.1.0,No suitable version,7,failed,,Y,
+org.daisy.pipeline.modules|nimas-fileset-validator|2.0.7,org.daisy.pipeline.modules|dtbook-utils|3.1.0,No suitable version,7,failed,,Y,
+org.daisy.pipeline.modules|dtbook-validator|3.0.5,org.daisy.pipeline.modules|dtbook-utils|3.1.0,No suitable version,7,failed,,Y,
+org.daisy.pipeline.modules|dtbook-validator|3.0.4,org.daisy.pipeline.modules|dtbook-utils|3.0.0,No suitable version,7,failed,,Y,
+org.daisy.pipeline.modules|dtbook-to-rtf|2.0.6,org.daisy.pipeline.modules|dtbook-utils|3.1.0,No suitable version,7,failed,,Y,
+org.wso2.am.choreo.extensions|org.wso2.am.choreo.extensions.operation.policy.provider.bcentralprovider.feature|1.1.45,org.wso2.am.choreo.extensions|org.wso2.am.choreo.extensions.operation.policy.provider.bcentralprovider|1.1.45,null,7,failed,,,Y
+org.wso2.am.choreo.extensions|org.wso2.am.choreo.extensions.persistence.mongodb.feature|1.1.45,org.wso2.am.choreo.extensions|org.wso2.am.choreo.extensions.persistence.mongodb|1.1.45,null,7,failed,,,Y
+org.wso2.carbon.identity.inbound.auth.sts|org.wso2.carbon.identity.sts.mgt.feature|5.10.0,org.wso2.carbon.identity.inbound.auth.sts|org.wso2.carbon.identity.sts.mgt.server.feature|5.10.0,null,7,failed,,,Y
+org.wso2.am.choreo.extensions|org.wso2.am.choreo.extensions.persistence.mongodb.feature|1.1.46,org.wso2.am.choreo.extensions|org.wso2.am.choreo.extensions.persistence.mongodb|1.1.46,null,7,failed,,,Y
+org.wso2.carbon.apimgt|org.wso2.carbon.apimgt.feature|9.14.6,org.wso2.carbon.apimgt|org.wso2.carbon.apimgt.keymanager.feature|9.14.6,null,7,failed,,,Y
+org.wso2.am.choreo.extensions|org.wso2.am.choreo.extensions.operation.policy.provider.bcentralprovider.feature|1.1.47,org.wso2.am.choreo.extensions|org.wso2.am.choreo.extensions.operation.policy.provider.bcentralprovider|1.1.47,null,7,failed,,,Y
+org.wso2.am.choreo.extensions|org.wso2.am.choreo.extensions.operation.policy.provider.bcentralprovider.feature|1.1.44,org.wso2.am.choreo.extensions|org.wso2.am.choreo.extensions.operation.policy.provider.bcentralprovider|1.1.44,null,7,failed,,,Y
+org.wso2.carbon.identity.carbon.auth.iwa|org.wso2.carbon.identity.authenticator.iwa.server.feature|5.5.0,org.wso2.carbon.identity.carbon.auth.iwa|org.wso2.carbon.identity.authenticator.iwa|5.5.0,null,7,failed,,,Y
+org.wso2.carbon.apimgt|org.wso2.carbon.apimgt.feature|9.14.8,org.wso2.carbon.apimgt|org.wso2.carbon.apimgt.keymanager.feature|9.14.8,null,7,failed,,,Y
+org.daisy.pipeline.modules|dtbook-to-odt|2.1.7,org.daisy.pipeline.modules|dtbook-utils|3.1.0,No suitable version,7,failed,,Y,
+org.daisy.pipeline.modules|nimas-fileset-validator|2.0.6,org.daisy.pipeline.modules|dtbook-utils|3.0.0,No suitable version,7,failed,,Y,
+org.daisy.pipeline.modules|dtbook-to-zedai|3.0.1,org.daisy.pipeline.modules|dtbook-utils|3.1.0,No suitable version,7,failed,,Y,
+org.daisy.pipeline.modules|daisy202-to-daisy3|1.0.3,org.daisy.pipeline.modules|dtbook-utils|3.1.0,No suitable version,7,failed,,Y,

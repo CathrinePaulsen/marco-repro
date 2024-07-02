@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.deser.creators.TestConstructFromMap
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! -- in com.fasterxml.jackson.databind.deser.creators.TestConstructFromMap
+com.fasterxml.jackson.databind.deser.creators.TestConstructFromMap.testViaFactoryUsingString -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'boolean com.fasterxml.jackson.core.io.NumberInput.looksLikeValidNumber(java.lang.String)'
+	at com.fasterxml.jackson.databind.deser.creators.TestConstructFromMap.testViaFactoryUsingString(TestConstructFromMap.java:99)
+

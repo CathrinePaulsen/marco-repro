@@ -1,0 +1,13 @@
+<settings>
+    <profiles>
+        <profile>
+            <id>version-replacement-extension</id>
+            <properties>
+                <maven.ext.class.path>/Users/cathrine/Workspace/thesis/thesis/extension_test/target/version-replacement-extension-1.0-SNAPSHOT.jar</maven.ext.class.path>
+            </properties>
+        </profile>
+    </profiles>
+    <activeProfiles>
+        <activeProfile>version-replacement-extension</activeProfile>
+    </activeProfiles>
+</settings>

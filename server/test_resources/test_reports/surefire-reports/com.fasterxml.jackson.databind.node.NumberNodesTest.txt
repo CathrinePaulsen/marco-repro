@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.node.NumberNodesTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! -- in com.fasterxml.jackson.databind.node.NumberNodesTest
+com.fasterxml.jackson.databind.node.NumberNodesTest.testDoubleViaMapper -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.node.NumberNodesTest.testDoubleViaMapper(NumberNodesTest.java:191)
+
+com.fasterxml.jackson.databind.node.NumberNodesTest.testDouble -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.node.NumberNodesTest.testDouble(NumberNodesTest.java:181)
+
+com.fasterxml.jackson.databind.node.NumberNodesTest.testBigDecimalAsPlain -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.node.NumberNodesTest.testBigDecimalAsPlain(NumberNodesTest.java:387)
+

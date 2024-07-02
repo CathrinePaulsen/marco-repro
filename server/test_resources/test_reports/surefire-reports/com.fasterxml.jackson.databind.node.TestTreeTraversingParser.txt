@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.node.TestTreeTraversingParser
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! -- in com.fasterxml.jackson.databind.node.TestTreeTraversingParser
+com.fasterxml.jackson.databind.node.TestTreeTraversingParser.testNumberOverflowLong -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.node.TestTreeTraversingParser.testNumberOverflowLong(TestTreeTraversingParser.java:342)
+
+com.fasterxml.jackson.databind.node.TestTreeTraversingParser.testNumberOverflowInt -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.node.TestTreeTraversingParser.testNumberOverflowInt(TestTreeTraversingParser.java:301)
+
+com.fasterxml.jackson.databind.node.TestTreeTraversingParser.testArray -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.node.TestTreeTraversingParser.testArray(TestTreeTraversingParser.java:125)
+
+com.fasterxml.jackson.databind.node.TestTreeTraversingParser.testNested -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.node.TestTreeTraversingParser.testNested(TestTreeTraversingParser.java:140)
+
+com.fasterxml.jackson.databind.node.TestTreeTraversingParser.testSimple -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.node.TestTreeTraversingParser.testSimple(TestTreeTraversingParser.java:48)
+

@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.deser.jdk.JDKScalarsDeserTest
+-------------------------------------------------------------------------------
+Tests run: 29, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.010 s <<< FAILURE! -- in com.fasterxml.jackson.databind.deser.jdk.JDKScalarsDeserTest
+com.fasterxml.jackson.databind.deser.jdk.JDKScalarsDeserTest.testDoubleWrapper -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'boolean com.fasterxml.jackson.core.io.NumberInput.looksLikeValidNumber(java.lang.String)'
+	at com.fasterxml.jackson.databind.deser.jdk.JDKScalarsDeserTest.testDoubleWrapper(JDKScalarsDeserTest.java:389)
+
+com.fasterxml.jackson.databind.deser.jdk.JDKScalarsDeserTest.testFloatWrapper -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'boolean com.fasterxml.jackson.core.io.NumberInput.looksLikeValidNumber(java.lang.String)'
+	at com.fasterxml.jackson.databind.deser.jdk.JDKScalarsDeserTest.testFloatWrapper(JDKScalarsDeserTest.java:366)
+
+com.fasterxml.jackson.databind.deser.jdk.JDKScalarsDeserTest.testInvalidStringCoercionFail -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoSuchMethodError: 'boolean com.fasterxml.jackson.core.io.NumberInput.looksLikeValidNumber(java.lang.String)'
+	at com.fasterxml.jackson.databind.deser.jdk.JDKScalarsDeserTest._testInvalidStringCoercionFail(JDKScalarsDeserTest.java:747)
+	at com.fasterxml.jackson.databind.deser.jdk.JDKScalarsDeserTest.testInvalidStringCoercionFail(JDKScalarsDeserTest.java:732)
+

@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.pw.dcp.DatabaseChangePlatformApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.681 s <<< FAILURE! - in com.pw.dcp.DatabaseChangePlatformApplicationTests
+contextLoads  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databaseMigrationService' defined in file [/Users/cathrine/Workspace/thesis/thesis/server/resources/repos/edw2023/DBMastermind-Suite/target/classes/com/pw/dcp/service/DatabaseMigrationService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+

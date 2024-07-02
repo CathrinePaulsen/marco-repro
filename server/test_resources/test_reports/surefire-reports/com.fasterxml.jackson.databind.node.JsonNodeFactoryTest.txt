@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.node.JsonNodeFactoryTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! -- in com.fasterxml.jackson.databind.node.JsonNodeFactoryTest
+com.fasterxml.jackson.databind.node.JsonNodeFactoryTest.testBigDecimalNormalization_enabled_by_default -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.node.JsonNodeFactoryTest.testBigDecimalNormalization_enabled_by_default(JsonNodeFactoryTest.java:89)
+
+com.fasterxml.jackson.databind.node.JsonNodeFactoryTest.testBigDecimalNormalizationLEGACY -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.node.JsonNodeFactoryTest.testBigDecimalNormalizationLEGACY(JsonNodeFactoryTest.java:121)
+
+com.fasterxml.jackson.databind.node.JsonNodeFactoryTest.testBigDecimalNormalization_when_disabled -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.node.JsonNodeFactoryTest.testBigDecimalNormalization_when_disabled(JsonNodeFactoryTest.java:103)
+

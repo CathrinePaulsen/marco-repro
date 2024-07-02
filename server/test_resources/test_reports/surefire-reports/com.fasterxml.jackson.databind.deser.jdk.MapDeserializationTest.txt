@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.deser.jdk.MapDeserializationTest
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.048 s <<< FAILURE! -- in com.fasterxml.jackson.databind.deser.jdk.MapDeserializationTest
+com.fasterxml.jackson.databind.deser.jdk.MapDeserializationTest.testSpecialMap -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.deser.jdk.MapDeserializationTest.testSpecialMap(MapDeserializationTest.java:189)
+
+com.fasterxml.jackson.databind.deser.jdk.MapDeserializationTest.testGenericMap -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.deser.jdk.MapDeserializationTest.testGenericMap(MapDeserializationTest.java:198)
+

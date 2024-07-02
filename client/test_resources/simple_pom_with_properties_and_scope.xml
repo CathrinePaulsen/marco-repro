@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example.appA</groupId>
+  <artifactId>appA</artifactId>
+  <packaging>jar</packaging>
+  <version>1</version>
+  <name>appA</name>
+
+  <properties>
+    <snakeyaml.version>1.33</snakeyaml.version>
+    <gson.version>2.10.1</gson.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.example.libB</groupId>
+      <artifactId>libB</artifactId>
+      <version>1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.yaml</groupId>
+      <artifactId>snakeyaml</artifactId>
+      <version>${snakeyaml.version}</version>
+      <scope>compile</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>${gson.version}</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

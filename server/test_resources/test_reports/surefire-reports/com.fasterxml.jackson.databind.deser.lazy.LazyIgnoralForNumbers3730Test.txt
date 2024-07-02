@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.deser.lazy.LazyIgnoralForNumbers3730Test
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! -- in com.fasterxml.jackson.databind.deser.lazy.LazyIgnoralForNumbers3730Test
+com.fasterxml.jackson.databind.deser.lazy.LazyIgnoralForNumbers3730Test.testIgnoreFPValuesBigDecimal -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoSuchMethodError: 'org.mockito.MockedStatic org.mockito.Mockito.mockStatic(java.lang.Class)'
+	at com.fasterxml.jackson.databind.deser.lazy.LazyIgnoralForNumbers3730Test.testIgnoreFPValuesBigDecimal(LazyIgnoralForNumbers3730Test.java:167)
+
+com.fasterxml.jackson.databind.deser.lazy.LazyIgnoralForNumbers3730Test.testIgnoreFPValuesDefault -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'org.mockito.MockedStatic org.mockito.Mockito.mockStatic(java.lang.Class)'
+	at com.fasterxml.jackson.databind.deser.lazy.LazyIgnoralForNumbers3730Test.testIgnoreFPValuesDefault(LazyIgnoralForNumbers3730Test.java:128)
+
+com.fasterxml.jackson.databind.deser.lazy.LazyIgnoralForNumbers3730Test.testIgnoreBigInteger -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'org.mockito.MockedStatic org.mockito.Mockito.mockStatic(java.lang.Class)'
+	at com.fasterxml.jackson.databind.deser.lazy.LazyIgnoralForNumbers3730Test.testIgnoreBigInteger(LazyIgnoralForNumbers3730Test.java:96)
+

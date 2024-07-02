@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.deser.jdk.JDKNumberDeserTest
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! -- in com.fasterxml.jackson.databind.deser.jdk.JDKNumberDeserTest
+com.fasterxml.jackson.databind.deser.jdk.JDKNumberDeserTest.testScientificNotationAsStringForNumber -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoSuchMethodError: 'boolean com.fasterxml.jackson.core.io.NumberInput.looksLikeValidNumber(java.lang.String)'
+	at com.fasterxml.jackson.databind.deser.jdk.JDKNumberDeserTest.testScientificNotationAsStringForNumber(JDKNumberDeserTest.java:227)
+
+com.fasterxml.jackson.databind.deser.jdk.JDKNumberDeserTest.testFpTypeOverrideStructured -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.deser.jdk.JDKNumberDeserTest.testFpTypeOverrideStructured(JDKNumberDeserTest.java:328)
+
+com.fasterxml.jackson.databind.deser.jdk.JDKNumberDeserTest.testFpTypeOverrideSimple -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.deser.jdk.JDKNumberDeserTest.testFpTypeOverrideSimple(JDKNumberDeserTest.java:311)
+

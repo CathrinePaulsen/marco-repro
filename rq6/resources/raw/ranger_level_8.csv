@@ -1,0 +1,14 @@
+project,dep,dep_range,project_depth,status,Incompatibility,No suitable version,"Error (no jar, call graph)"
+org.daisy.pipeline.modules|daisy3-to-mp3|1.1.2,org.daisy.pipeline.modules|daisy3-utils|4.0.0,No suitable version,8,failed,,Y,
+org.daisy.pipeline.modules|daisy3-to-epub3|2.0.6,org.daisy.pipeline.modules|dtbook-to-html|3.0.0,No suitable version,8,failed,,Y,
+org.daisy.pipeline.modules|daisy3-to-daisy202|2.0.6,org.daisy.pipeline.modules|daisy3-utils|4.0.0,No suitable version,8,failed,,Y,
+org.daisy.pipeline.modules|daisy3-to-epub3|2.0.8,org.daisy.pipeline.modules|daisy3-utils|4.0.0,No suitable version,8,failed,,Y,
+org.daisy.pipeline.modules|daisy3-to-mp3|1.1.1,org.daisy.pipeline.modules|daisy3-utils|4.0.0,No suitable version,8,failed,,Y,
+org.daisy.pipeline.modules|daisy3-to-daisy202|2.0.7,org.daisy.pipeline.modules|daisy3-utils|4.0.0,No suitable version,8,failed,,Y,
+org.daisy.pipeline.modules|daisy3-to-mp3|1.1.0,org.daisy.pipeline.modules|daisy3-utils|4.0.0,No suitable version,8,failed,,Y,
+org.daisy.pipeline.modules|epub-utils|1.2.3,org.daisy.pipeline.modules|daisy3-utils|3.0.3,No suitable version,8,failed,,Y,
+org.wso2.carbon.identity.carbon.auth.iwa|org.wso2.carbon.identity.authenticator.iwa.feature|5.5.0,org.wso2.carbon.identity.carbon.auth.iwa|org.wso2.carbon.identity.authenticator.iwa.ui.feature|5.5.0,error,8,failed,,,Y
+org.daisy.pipeline.modules|epub3-to-daisy3|1.0.5,org.daisy.pipeline.modules|daisy3-utils|4.0.0,No suitable version,8,failed,,Y,
+org.daisy.pipeline.modules|epub3-to-daisy3|1.0.4,org.daisy.pipeline.modules|daisy3-utils|3.0.3,No suitable version,8,failed,,Y,
+org.daisy.pipeline.modules|daisy3-to-mp3|1.0.0,org.daisy.pipeline.modules|daisy3-utils|4.0.0,No suitable version,8,failed,,Y,
+org.daisy.pipeline.modules|daisy3-to-epub3|2.0.7,org.daisy.pipeline.modules|daisy3-utils|4.0.0,No suitable version,8,failed,,Y,

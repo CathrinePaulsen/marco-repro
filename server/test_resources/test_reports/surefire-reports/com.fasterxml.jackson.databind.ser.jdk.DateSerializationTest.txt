@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! -- in com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest
+com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest.testWithTimeZoneOverride -- Time elapsed: 0.004 s <<< FAILURE!
+org.junit.ComparisonFailure: expected:<"1969-12-31/16:00 [PST]"> but was:<"1969-12-31/16:00 [GMT-08:00]">
+	at com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest.serialize(DateSerializationTest.java:383)
+	at com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest.testWithTimeZoneOverride(DateSerializationTest.java:294)
+

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.misc.RaceCondition738Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.917 s -- in com.fasterxml.jackson.databind.misc.RaceCondition738Test

@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.convert.CoerceJDKScalarsTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.022 s <<< FAILURE! -- in com.fasterxml.jackson.databind.convert.CoerceJDKScalarsTest
+com.fasterxml.jackson.databind.convert.CoerceJDKScalarsTest.testStringToNumbersCoercionOk -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'boolean com.fasterxml.jackson.core.io.NumberInput.looksLikeValidNumber(java.lang.String)'
+	at com.fasterxml.jackson.databind.convert.CoerceJDKScalarsTest._verifyCoerceSuccess(CoerceJDKScalarsTest.java:207)
+	at com.fasterxml.jackson.databind.convert.CoerceJDKScalarsTest.testStringToNumbersCoercionOk(CoerceJDKScalarsTest.java:149)
+

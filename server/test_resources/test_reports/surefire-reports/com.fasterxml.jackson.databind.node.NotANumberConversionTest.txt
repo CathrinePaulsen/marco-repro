@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.node.NotANumberConversionTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! -- in com.fasterxml.jackson.databind.node.NotANumberConversionTest
+com.fasterxml.jackson.databind.node.NotANumberConversionTest.testBigDecimalWithNaN -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.node.NotANumberConversionTest.testBigDecimalWithNaN(NotANumberConversionTest.java:15)
+
+com.fasterxml.jackson.databind.node.NotANumberConversionTest.testBigDecimalWithoutNaN -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoSuchMethodError: 'com.fasterxml.jackson.core.JsonParser$NumberTypeFP com.fasterxml.jackson.core.JsonParser.getNumberTypeFP()'
+	at com.fasterxml.jackson.databind.node.NotANumberConversionTest.testBigDecimalWithoutNaN(NotANumberConversionTest.java:35)
+

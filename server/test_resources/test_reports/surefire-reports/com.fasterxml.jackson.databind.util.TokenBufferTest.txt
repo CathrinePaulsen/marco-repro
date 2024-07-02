@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.util.TokenBufferTest
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! -- in com.fasterxml.jackson.databind.util.TokenBufferTest
+com.fasterxml.jackson.databind.util.TokenBufferTest.testSimpleNumberWrites -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/JsonParser$NumberTypeFP
+	at com.fasterxml.jackson.databind.util.TokenBufferTest.testSimpleNumberWrites(TokenBufferTest.java:156)
+Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.JsonParser$NumberTypeFP
+	at com.fasterxml.jackson.databind.util.TokenBufferTest.testSimpleNumberWrites(TokenBufferTest.java:156)
+

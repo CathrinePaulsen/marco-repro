@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.fasterxml.jackson.databind.deser.TestFloats
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! -- in com.fasterxml.jackson.databind.deser.TestFloats
+com.fasterxml.jackson.databind.deser.TestFloats.testFloatClass -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoSuchMethodError: 'boolean com.fasterxml.jackson.core.io.NumberInput.looksLikeValidNumber(java.lang.String)'
+	at com.fasterxml.jackson.databind.deser.TestFloats.testFloatClass(TestFloats.java:37)
+
+com.fasterxml.jackson.databind.deser.TestFloats.testFloatPrimitive -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'boolean com.fasterxml.jackson.core.io.NumberInput.looksLikeValidNumber(java.lang.String)'
+	at com.fasterxml.jackson.databind.deser.TestFloats.testFloatPrimitive(TestFloats.java:27)
+
+com.fasterxml.jackson.databind.deser.TestFloats.testArrayOfFloats -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'boolean com.fasterxml.jackson.core.io.NumberInput.looksLikeValidNumber(java.lang.String)'
+	at com.fasterxml.jackson.databind.deser.TestFloats.testArrayOfFloats(TestFloats.java:85)
+
+com.fasterxml.jackson.databind.deser.TestFloats.testArrayOfFloatPrimitives -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoSuchMethodError: 'boolean com.fasterxml.jackson.core.io.NumberInput.looksLikeValidNumber(java.lang.String)'
+	at com.fasterxml.jackson.databind.deser.TestFloats.testArrayOfFloatPrimitives(TestFloats.java:54)
+
